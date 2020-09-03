@@ -1,15 +1,15 @@
 import React from "react";
 import Home from "../containers/Home";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import "./App.scss";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route exact path="/" component={Home} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

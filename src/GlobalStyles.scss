@@ -1,7 +1,15 @@
+$backgroundColor: #22262b;
+$secundary: #fbbc42;
+$primary: #e76a24;
+$regular: #cec9c9;
+
+@import "~bootstrap/scss/bootstrap";
+
 body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-color: $backgroundColor;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
