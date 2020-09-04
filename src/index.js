@@ -6,12 +6,15 @@ import * as serviceWorker from "./serviceWorker";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import RootReducer from "./components/reducers/RootReducer";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 const store = createStore(RootReducer);
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <ParallaxProvider>
+        <App />
+      </ParallaxProvider>
     </Provider>
   </React.StrictMode>,
   document.getElementById("root")

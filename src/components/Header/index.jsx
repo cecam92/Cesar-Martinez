@@ -1,28 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { Fragment } from "react";
 import "./styles.scss";
-import Nav from "react-bootstrap/Nav";
 
 const Header = () => {
   return (
-    <>
-      <Nav className="justify-content-center" activeKey="/home">
-        <Nav.Item>
-          <Nav.Link>
-            <Link to="/">Home</Link>
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-1">About</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-2">project 1</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="disabled"> project 2</Nav.Link>
-        </Nav.Item>
-      </Nav>
-    </>
+    <Fragment>
+      <header className="header">
+        <h1>Cesar Martinez</h1>
+        <h2> Network Engineer | Front End Developer</h2>
+      </header>
+    </Fragment>
   );
 };
 

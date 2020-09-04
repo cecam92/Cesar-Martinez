@@ -1,8 +1,11 @@
 @import "../../Variables.scss";
-Footer {
-  display: flex;
+.nav {
   background-color: $primary;
-  height: 10%;
   justify-content: center;
-  align-content: flex-end;
+  align-content: center;
+}
+
+.nav a {
+  color: $regular;
+  font-weight: bold;
 }
