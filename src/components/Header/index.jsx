@@ -5,8 +5,10 @@ const Header = () => {
   return (
     <Fragment>
       <header className="header">
-        <h1>Cesar Martinez</h1>
-        <h2> Network Engineer | Front End Developer</h2>
+        <h1 className="scroll-sizing">Cesar Martinez</h1>
+        <h2 className="scroll-sizing">
+          Network Engineer | Front End Developer
+        </h2>
       </header>
     </Fragment>
   );

@@ -1,11 +1,15 @@
 @import "../../Variables.scss";
-.nav {
-  background-color: $primary;
-  justify-content: center;
-  align-content: center;
+.navbar-dark .navbar-brand {
+  color: $secundary;
+  font-size: 2rem;
 }
 
-.nav a {
-  color: $regular;
-  font-weight: bold;
-}
+// .show,
+// .navbar-nav {
+//   display: flex;
+//   margin-left: 0;
+//   height: 100vh;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: 3rem;
+// }
