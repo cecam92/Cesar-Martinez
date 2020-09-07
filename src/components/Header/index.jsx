@@ -6,7 +6,7 @@ const Header = () => {
     <Fragment>
       <header className="header">
         <h1 className="scroll-sizing">Cesar Martinez</h1>
-        <h2 className="scroll-sizing">
+        <h2 className="scroll-sizing" id="profession">
           Network Engineer | Front End Developer
         </h2>
       </header>

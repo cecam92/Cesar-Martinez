@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 import Kami from "../../assets/Kami.png";
 import "./styles.scss";
 const AboutMe = () => {
@@ -18,6 +19,10 @@ const AboutMe = () => {
             adaptable person, who delivers reliable results with excellent
             project management skills.
           </p>
+
+          <Link to="/about" className="findMore">
+            Find more
+          </Link>
         </div>
       </section>
     </Fragment>
