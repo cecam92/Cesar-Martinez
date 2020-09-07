@@ -1,7 +1,15 @@
 @import "../../Variables.scss";
+.navbar-dark .navbar-nav .nav-link {
+  color: $regular;
+  font-size: 1.5rem;
+}
+
 .navbar-dark .navbar-brand {
   color: $secundary;
-  font-size: 2rem;
+  font-size: 2.5rem;
+}
+.navbar-nav {
+  margin-left: auto;
 }
 
 // .show,

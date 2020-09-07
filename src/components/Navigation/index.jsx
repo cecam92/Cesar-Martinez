@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import "./styles.scss";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
 const Navegation = () => {
   return (
     <Fragment>
@@ -12,8 +11,9 @@ const Navegation = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/About">About</Nav.Link>
-            <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="/about-me">About Me</Nav.Link>
+            <Nav.Link href="/resume">Resume</Nav.Link>
+            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

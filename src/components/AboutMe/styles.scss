@@ -1,0 +1,21 @@
+@import "../../Variables.scss";
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $backgroundColor;
+  border: 1 solid $regular;
+
+  &_title {
+    padding-bottom: 10%;
+  }
+  &_description {
+    padding: 5%;
+  }
+}
+
+.imageBio {
+  border-radius: 100%;
+}

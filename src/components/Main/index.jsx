@@ -1,75 +1,14 @@
 import React from "react";
+import AboutMe from "../AboutMe";
 import "./styles.scss";
 
 const Main = () => {
   return (
-    <main className="container">
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
-      <p>asdadasdasd</p>
+    <main>
+      <AboutMe />
+      <AboutMe />
+      <AboutMe />
+      <AboutMe />
     </main>
   );
 };

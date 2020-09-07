@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./GlobalStyles.scss";
-import App from "./routes/App.jsx";
+import App from "./components/routes/App.jsx";
 import * as serviceWorker from "./serviceWorker";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
