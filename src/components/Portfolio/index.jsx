@@ -7,6 +7,7 @@ import CSS from "../../assets/CSS.png";
 import ReactIcon from "../../assets/react.png";
 import Bootstrap from "../../assets/bootstrap.png";
 import Rick from "../../assets/pickle.png";
+import Button from "react-bootstrap/button";
 
 const Porfolio = () => {
   return (
@@ -24,7 +25,6 @@ const Porfolio = () => {
         <figure className="portfolio_image">
           <img src={Rick} alt="Portfolio" />
         </figure>
-
         <div className="portfolio_descripction">
           <p>
             I am a Network Engineer and highly skilled Frontend Developer on
@@ -34,23 +34,29 @@ const Porfolio = () => {
             adaptable person, who delivers reliable results with excellent
             project management skills.
           </p>
-          <div className="portfolio_tech">
-            <i>
-              <img className="techIcon" src={HTML} />
-            </i>
-            <i>
-              <img className="techIcon" src={CSS} />
-            </i>
-            <i>
-              <img className="techIcon" src={JS} />
-            </i>
-            <i>
-              <img className="techIcon" src={ReactIcon} />
-            </i>
-            <i>
-              <img className="techIcon" src={Bootstrap} />
-            </i>
+        </div>
+        <div className="portfolio_buttons">
+          <div className="buttons-container">
+            <Button className="btn btn-primary">GitHub</Button>
+            <Button className="btn btn-primary">Demo</Button>
           </div>
+        </div>
+        <div className="portfolio_tech">
+          <i>
+            <img className="techIcon" src={HTML} />
+          </i>
+          <i>
+            <img className="techIcon" src={CSS} />
+          </i>
+          <i>
+            <img className="techIcon" src={JS} />
+          </i>
+          <i>
+            <img className="techIcon" src={ReactIcon} />
+          </i>
+          <i>
+            <img className="techIcon" src={Bootstrap} />
+          </i>
         </div>
       </section>
     </Fragment>

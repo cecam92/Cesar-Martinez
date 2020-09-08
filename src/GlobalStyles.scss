@@ -1,5 +1,5 @@
-@import "~bootstrap/scss/bootstrap";
 @import "./Variables.scss";
+@import "~bootstrap/scss/bootstrap";
 
 * {
   padding: 0;
@@ -48,6 +48,7 @@ a {
 }
 p {
   font-size: 1.5rem;
+  text-align: justify;
   color: $regular;
   margin: 0;
   overflow: hidden;
