@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Cesar-Martinez/static/css/main.0591e280.chunk.css",
+    "main.css": "/Cesar-Martinez/static/css/main.63710665.chunk.css",
     "main.js": "/Cesar-Martinez/static/js/main.f093ad3d.chunk.js",
     "main.js.map": "/Cesar-Martinez/static/js/main.f093ad3d.chunk.js.map",
     "runtime-main.js": "/Cesar-Martinez/static/js/runtime-main.608824cd.js",
@@ -8,9 +8,9 @@
     "static/js/2.d30f662e.chunk.js": "/Cesar-Martinez/static/js/2.d30f662e.chunk.js",
     "static/js/2.d30f662e.chunk.js.map": "/Cesar-Martinez/static/js/2.d30f662e.chunk.js.map",
     "index.html": "/Cesar-Martinez/index.html",
-    "precache-manifest.c5f9c869d1b659900cbdc8c5fe9a8849.js": "/Cesar-Martinez/precache-manifest.c5f9c869d1b659900cbdc8c5fe9a8849.js",
+    "precache-manifest.7c55b0dc2106cf59075bed2dff3ed5cb.js": "/Cesar-Martinez/precache-manifest.7c55b0dc2106cf59075bed2dff3ed5cb.js",
     "service-worker.js": "/Cesar-Martinez/service-worker.js",
-    "static/css/main.0591e280.chunk.css.map": "/Cesar-Martinez/static/css/main.0591e280.chunk.css.map",
+    "static/css/main.63710665.chunk.css.map": "/Cesar-Martinez/static/css/main.63710665.chunk.css.map",
     "static/js/2.d30f662e.chunk.js.LICENSE.txt": "/Cesar-Martinez/static/js/2.d30f662e.chunk.js.LICENSE.txt",
     "static/media/Kami.png": "/Cesar-Martinez/static/media/Kami.269640a9.png",
     "static/media/bootstrap.png": "/Cesar-Martinez/static/media/bootstrap.ce2c3668.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.608824cd.js",
     "static/js/2.d30f662e.chunk.js",
-    "static/css/main.0591e280.chunk.css",
+    "static/css/main.63710665.chunk.css",
     "static/js/main.f093ad3d.chunk.js"
   ]
 }
