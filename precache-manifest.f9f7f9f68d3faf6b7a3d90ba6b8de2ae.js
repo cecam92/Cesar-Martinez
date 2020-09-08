@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48887da7dc3b9665d684c01df864cdb9",
+    "revision": "fb1aacb9df9d33e805bdc7f5ba7a385f",
     "url": "/Cesar-Martinez/index.html"
   },
   {
-    "revision": "c156db777650c6a47002",
-    "url": "/Cesar-Martinez/static/css/main.5e4ebc73.chunk.css"
+    "revision": "0008692e0a19430ee301",
+    "url": "/Cesar-Martinez/static/css/main.e20bebff.chunk.css"
   },
   {
-    "revision": "ad86b581aa1b850f7a74",
-    "url": "/Cesar-Martinez/static/js/2.c2c8866b.chunk.js"
+    "revision": "bb962a1bdc2524f984cc",
+    "url": "/Cesar-Martinez/static/js/2.deb978c5.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Cesar-Martinez/static/js/2.c2c8866b.chunk.js.LICENSE.txt"
+    "url": "/Cesar-Martinez/static/js/2.deb978c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c156db777650c6a47002",
-    "url": "/Cesar-Martinez/static/js/main.e237f7d6.chunk.js"
+    "revision": "0008692e0a19430ee301",
+    "url": "/Cesar-Martinez/static/js/main.d335b0d4.chunk.js"
   },
   {
     "revision": "b7df867cdcf35c4d1c4a",
