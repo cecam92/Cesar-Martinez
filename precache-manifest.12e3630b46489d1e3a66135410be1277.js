@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03b64b89fb5ce4eb9f991740fe104fe6",
+    "revision": "4a015c327659ad2f8b0888a367760cf6",
     "url": "/Cesar-Martinez/index.html"
   },
   {
-    "revision": "9ef781a4daf2bae67b91",
+    "revision": "ef838f200ae8e0de3ea9",
     "url": "/Cesar-Martinez/static/css/main.e012f937.chunk.css"
   },
   {
-    "revision": "d9f9566eb63755b73f84",
-    "url": "/Cesar-Martinez/static/js/2.be2d2a20.chunk.js"
+    "revision": "e1e5dd557e60ce64f70b",
+    "url": "/Cesar-Martinez/static/js/2.5a1555fe.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Cesar-Martinez/static/js/2.be2d2a20.chunk.js.LICENSE.txt"
+    "url": "/Cesar-Martinez/static/js/2.5a1555fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9ef781a4daf2bae67b91",
-    "url": "/Cesar-Martinez/static/js/main.e1e8d0eb.chunk.js"
+    "revision": "ef838f200ae8e0de3ea9",
+    "url": "/Cesar-Martinez/static/js/main.d1b92e6b.chunk.js"
   },
   {
     "revision": "b7df867cdcf35c4d1c4a",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "269640a9272718eefff1256e1e81af29",
     "url": "/Cesar-Martinez/static/media/Kami.269640a9.png"
-  },
-  {
-    "revision": "ce2c3668da51b0b449357385ea86fac6",
-    "url": "/Cesar-Martinez/static/media/bootstrap.ce2c3668.png"
   },
   {
     "revision": "7b174c7d2ff76b8621d6fca063f62903",
