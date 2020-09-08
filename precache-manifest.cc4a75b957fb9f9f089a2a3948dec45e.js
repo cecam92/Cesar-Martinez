@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a015c327659ad2f8b0888a367760cf6",
+    "revision": "1bad529d4c73362aad9ca4f25928a2e1",
     "url": "/Cesar-Martinez/index.html"
   },
   {
-    "revision": "ef838f200ae8e0de3ea9",
-    "url": "/Cesar-Martinez/static/css/main.e012f937.chunk.css"
+    "revision": "6914696517530b014075",
+    "url": "/Cesar-Martinez/static/css/main.0591e280.chunk.css"
   },
   {
-    "revision": "e1e5dd557e60ce64f70b",
-    "url": "/Cesar-Martinez/static/js/2.5a1555fe.chunk.js"
+    "revision": "b6f3ff85ba6e67f4e6b9",
+    "url": "/Cesar-Martinez/static/js/2.e96a6df4.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Cesar-Martinez/static/js/2.5a1555fe.chunk.js.LICENSE.txt"
+    "url": "/Cesar-Martinez/static/js/2.e96a6df4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ef838f200ae8e0de3ea9",
-    "url": "/Cesar-Martinez/static/js/main.d1b92e6b.chunk.js"
+    "revision": "6914696517530b014075",
+    "url": "/Cesar-Martinez/static/js/main.c2bfa99c.chunk.js"
   },
   {
     "revision": "b7df867cdcf35c4d1c4a",
@@ -28,8 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cesar-Martinez/static/media/Kami.269640a9.png"
   },
   {
+    "revision": "ce2c3668da51b0b449357385ea86fac6",
+    "url": "/Cesar-Martinez/static/media/bootstrap.ce2c3668.png"
+  },
+  {
     "revision": "7b174c7d2ff76b8621d6fca063f62903",
     "url": "/Cesar-Martinez/static/media/css.7b174c7d.png"
+  },
+  {
+    "revision": "d070ef38a13eb51c1093c0ebebd2b5d0",
+    "url": "/Cesar-Martinez/static/media/galeria.d070ef38.png"
   },
   {
     "revision": "a7f48025c2fde4f2dc3cbee5f2a44ddf",
@@ -38,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "70d6173e1215a7a0004b530f3adcc304",
     "url": "/Cesar-Martinez/static/media/html.70d6173e.png"
+  },
+  {
+    "revision": "5cdaebf10154f49cbdc1a353789c0304",
+    "url": "/Cesar-Martinez/static/media/instagram.5cdaebf1.png"
   },
   {
     "revision": "a778d9319727390408595d46d0199d25",
