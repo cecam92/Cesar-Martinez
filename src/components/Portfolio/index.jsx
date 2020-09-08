@@ -7,7 +7,7 @@ const Porfolio = (props) => {
 
   return (
     <Fragment>
-      <section className="projects ligth">
+      <section className="projects ligth" id="portfolio">
         <h2 className="section-title">Portfolio</h2>
         <div className="text_container">
           <p>Portfolio's description</p>
