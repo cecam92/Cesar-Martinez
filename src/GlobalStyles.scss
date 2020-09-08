@@ -21,6 +21,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: $darkColor;
 }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
 h1 {
   font-size: 4.5rem;
   color: $secundary;
@@ -29,6 +33,8 @@ h1 {
 h2 {
   font-size: 3rem;
   overflow: hidden;
+  color: inherit;
+  text-align: center;
 }
 h3 {
   font-size: 1.8rem;
@@ -51,9 +57,20 @@ section {
   height: 100%;
   display: flex;
   padding: 5%;
+  padding-bottom: 0%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: $darkColor;
+  background-color: $ligthColor;
+}
+article {
+  color: inherit;
+  background-color: inherit;
+}
+article:nth-of-type(even) {
+  background-color: $darkColor;
+  color: $ligthColor;
 }
 p {
   color: inherit;
@@ -80,11 +97,6 @@ i {
   background-color: $ligthColor;
   color: $darkColor;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 .text_container {
   color: inherit;
   padding: 5%;
@@ -93,6 +105,9 @@ code {
   padding: 10%;
   color: inherit;
   background-color: inherit;
+}
+.project-title {
+  padding: 5%;
 }
 .buttons-container {
   width: 50%;
@@ -112,7 +127,7 @@ code {
 .icon-container {
   display: flex;
   min-width: 80%;
-  max-width: 10vw;
+  max-width: 90% auto;
   padding: 3%;
   justify-content: space-around;
   align-content: center;
@@ -138,6 +153,7 @@ code {
   object-fit: fill;
   padding: 5%;
   img {
+    border-radius: 15px;
     width: 100%;
     height: 80%;
   }
