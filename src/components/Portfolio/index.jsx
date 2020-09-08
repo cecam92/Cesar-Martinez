@@ -8,22 +8,41 @@ import CSS from "../../assets/css.png";
 import ReactIcon from "../../assets/react.png";
 import Rick from "../../assets/pickle.png";
 import graph from "../../assets/graphql.png";
+import bootstrap from "../../assets/bootstrap.png";
 
 const Porfolio = () => {
+  const projects = [
+    {
+      title: "Layout Galeria",
+      description: ` I am a Network Engineer and highly skilled Frontend Developer on
+      Single Page Applications with React JS. I have knowledge and good
+      practices of Hooks, Redux, Router, SASS, RESTful and GraphQL APIs.
+      I'm a problem solver, strong team player, quick learner and
+      adaptable person, who delivers reliable results with excellent
+      project management skills.`,
+      technologies: [{ HTML }, { CSS }, { ReactIcon }, { JS }, { bootstrap }],
+      picture: { Rick },
+    },
+    {
+      title: "Rick and Morty",
+      description: ` I am a Network Engineer and highly skilled Frontend Developer on
+      Single Page Applications with React JS. I have knowledge and good
+      practices of Hooks, Redux, Router, SASS, RESTful and GraphQL APIs.
+      I'm a problem solver, strong team player, quick learner and
+      adaptable person, who delivers reliable results with excellent
+      project management skills.`,
+      technologies: [{ HTML }, { CSS }, { ReactIcon }, { JS }, { graph }],
+      picture: { Rick },
+    },
+  ];
+
   return (
     <Fragment>
+      {projects.map((project) => {})}
       <section id="portfolio" className=" light">
         <h2 className="section-title">Portfolio</h2>
         <div className="text_container">
-          <p>
-            I am a Network Engineer and highly skilled Frontend Developer on
-            Single Page Applications with React JS. I have knowledge and good
-            practices of Hooks, Redux, Router, SASS, RESTful and GraphQL APIs.
-            I'm a problem solver, strong team player, quick learner and
-            adaptable person, who delivers reliable results with excellent
-            project management skills.
-            <a href="#about">about here</a>
-          </p>
+          <p>Portfolio's description</p>
         </div>
         <figure className="portfolio-image">
           <img src={Rick} alt="Portfolio" />
@@ -60,8 +79,8 @@ const Porfolio = () => {
             </Button>
           </div>
         </div>
-        <div className="tech-container">
-          <i className="d-flex-column justify-content-center ">
+        <div className="icon-container">
+          <i>
             <img className="icon" src={HTML} alt="html icon" />
             <h6 className="icon-caption">html</h6>
           </i>

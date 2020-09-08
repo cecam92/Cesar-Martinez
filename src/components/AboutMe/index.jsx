@@ -1,6 +1,11 @@
 import React, { Fragment } from "react";
 import Kami from "../../assets/Kami.png";
 import "./styles.scss";
+
+import twitter from "../../assets/twitter.png";
+import instagram from "../../assets/instagram.png";
+import github from "../../assets/github.png";
+
 const AboutMe = () => {
   return (
     <Fragment>
@@ -18,6 +23,38 @@ const AboutMe = () => {
             adaptable person, who delivers reliable results with excellent
             project management skills.
           </p>
+        </div>
+        <div className="icon-container">
+          <a
+            href="https://instagram.com/cecam92"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i>
+              <img className="icon" src={instagram} alt="instagram icon" />
+              <h6 className="icon-caption ">Instagram</h6>
+            </i>
+          </a>
+          <a
+            href="http://twitter.com/cecam92"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i>
+              <img className="icon" src={twitter} alt="Twitter icon" />
+              <h6 className="icon-caption">Twitter</h6>
+            </i>
+          </a>
+          <a
+            href="http://github.com/cecam92"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i>
+              <img className="icon" src={github} alt="GitHub icon" />
+              <h6 className="icon-caption">GitHub</h6>
+            </i>
+          </a>
         </div>
       </section>
     </Fragment>
