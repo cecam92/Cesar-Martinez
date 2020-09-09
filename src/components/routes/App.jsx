@@ -1,16 +1,14 @@
 import React from "react";
 import Home from "../../containers/Home";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.scss";
-
+import { HashRouter, Switch, Route } from "react-router-dom";
 function App() {
   return (
-    // <BrowserRouter>
-    //   <Switch>
-    //     <Route exact path="/" component={Home} />
-    //   </Switch>
-    // </BrowserRouter>
-    <Home />
+    <HashRouter>
+      <Switch>
+        <Route path="/" component={Home} />
+      </Switch>
+    </HashRouter>
   );
 }
 

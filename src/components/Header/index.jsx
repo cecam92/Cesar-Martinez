@@ -4,7 +4,7 @@ import "./styles.scss";
 const Header = () => {
   return (
     <Fragment>
-      <header className="header">
+      <header id="home" className="header">
         <h1 className="scroll-sizing">Cesar Martinez</h1>
         <h2 className="scroll-sizing" id="profession">
           Network Engineer | Front End Developer
