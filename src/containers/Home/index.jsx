@@ -9,11 +9,6 @@ import "./styles.scss";
 const Home = () => {
   const [data, setData] = useState(1);
   const [stick, setStick] = useState(false);
-  const headerProps = useSpring({
-    from: { transform: "scale(1)", opacity: 1 },
-    opacity: 1 - window.scrollY / 100,
-    transform: `scale(${data})`,
-  });
 
   const fadeProps = useSpring({
     opacity: stick ? 1 : 0,
@@ -22,7 +17,7 @@ const Home = () => {
 
   function cutNumber(num) {
     const MIN = 1;
-    const MAX = 320;
+    const MAX = 96;
     const parsed = parseInt(num);
     return Math.min(Math.max(parsed, MIN), MAX);
   }
@@ -48,9 +43,7 @@ const Home = () => {
 
   return (
     <Fragment>
-      <a.div style={headerProps}>
-        <Header className="Header-Component" />
-      </a.div>
+      <Header data={data} />
 
       {stick && (
         <>
