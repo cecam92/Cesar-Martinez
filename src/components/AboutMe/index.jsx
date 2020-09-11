@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Kami from "../../assets/Kami.png";
 import "./styles.scss";
 
+import linkedin from "../../assets/linkedin.png";
 import twitter from "../../assets/twitter.png";
 import instagram from "../../assets/instagram.png";
 import github from "../../assets/github.png";
@@ -25,6 +26,16 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="icon-container">
+          <a
+            href="http://linkedin.com/in/cecam92"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i>
+              <img className="icon" src={linkedin} alt="GitHub icon" />
+              <h6 className="icon-caption">LinkedIn</h6>
+            </i>
+          </a>
           <a
             href="https://instagram.com/cecam92"
             target="_blank"

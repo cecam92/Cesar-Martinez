@@ -10,6 +10,7 @@ import Rick from "../../assets/pickle.png";
 import graph from "../../assets/graphql.png";
 import bootstrap from "../../assets/bootstrap.png";
 import galeria from "../../assets/galeria.png";
+import Technologies from "../Technologies";
 
 const Main = () => {
   const projects = [
@@ -56,6 +57,7 @@ const Main = () => {
     <main>
       <AboutMe />
       <Portfolio projects={projects} />
+      <Technologies />
     </main>
   );
 };
