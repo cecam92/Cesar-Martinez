@@ -15,7 +15,7 @@ const Porfolio = (props) => {
         {projects.map((project, index) => {
           return (
             <article className="projects " key={index}>
-              <h2 className="project-title">{project.title}</h2>
+              <h2 className="section-title">{project.title}</h2>
               <figure className="portfolio-image">
                 <img src={project.picture} alt="Portfolio" />
               </figure>

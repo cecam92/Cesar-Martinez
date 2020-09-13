@@ -1,0 +1,17 @@
+.tech-container {
+  width: 100%;
+  display: grid;
+  margin-top: 7%;
+  grid-template-columns: 1fr 1fr;
+}
+
+.icoin-container {
+  width: 100%;
+  justify-content: flex-start;
+  display: flex;
+  flex-flow: row;
+  padding: 5%;
+}
+.icon-caption {
+  padding-left: 7%;
+}
