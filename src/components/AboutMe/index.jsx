@@ -8,64 +8,77 @@ import instagram from "../../assets/instagram.png";
 import github from "../../assets/github.png";
 
 const AboutMe = () => {
+  const intro = [
+    {
+      paragraph: `I am Cesar Martinez, I was born and raised in Cali, Colombia. 
+  Where I did a bachelor of Engineering, Computer and Network Engineering. 
+  In 2016, I moved to Perth, Australia, looking fordward to an enriching overseas experience while I studied English. 
+  After the English course, I decided to  do a Diploma of Leadership and Management to enhance my profesional skills. 
+  Since 2018, I am living in Melbourne where I accomplished an Advance Diploma of Information Technology.
+  `,
+    },
+    {
+      paragraph: `As a curious person that enjoy learning new technologies and as complement of my engineering degree. 
+    I started to sharp my coding skills, beginning with Swift for IOS applications, 
+    followed by React JS for web development and React Native for mobile development.
+    `,
+    },
+  ];
+
+  const socials = [
+    {
+      name: "LinkedIn",
+      icon: linkedin,
+      url: "http://linkedin.com/in/cecam92",
+    },
+    {
+      name: "Instagram",
+      icon: instagram,
+      url: "https://instagram.com/cecam92",
+    },
+    {
+      name: "Twitter",
+      icon: twitter,
+      url: "http://twitter.com/cecam92",
+    },
+    {
+      name: "GitHub",
+      icon: github,
+      url: "http://github.com/cecam92",
+    },
+  ];
   return (
     <Fragment>
-      <section id="about" className="section dark">
+      <section id="about" className="dark">
         <h2 className="section-title ">Who Am I?</h2>
         <figure className="imageBio">
           <img src={Kami} alt="that is me" />
         </figure>
-        <div className="text_container">
-          <p>
-            I am a Network Engineer and highly skilled Frontend Developer on
-            Single Page Applications with React JS. I have knowledge and good
-            practices of Hooks, Redux, Router, SASS, RESTful and GraphQL APIs.
-            I'm a problem solver, strong team player, quick learner and
-            adaptable person, who delivers reliable results with excellent
-            project management skills.
-          </p>
-        </div>
+
+        {intro.map((parrafo) => {
+          return (
+            <div>
+              <p>{parrafo.paragraph}</p>
+              <br />
+            </div>
+          );
+        })}
+
         <div className="icon-container">
-          <a
-            href="http://linkedin.com/in/cecam92"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i>
-              <img className="icon" src={linkedin} alt="GitHub icon" />
-              <h6 className="icon-caption">LinkedIn</h6>
-            </i>
-          </a>
-          <a
-            href="https://instagram.com/cecam92"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i>
-              <img className="icon" src={instagram} alt="instagram icon" />
-              <h6 className="icon-caption ">Instagram</h6>
-            </i>
-          </a>
-          <a
-            href="http://twitter.com/cecam92"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i>
-              <img className="icon" src={twitter} alt="Twitter icon" />
-              <h6 className="icon-caption">Twitter</h6>
-            </i>
-          </a>
-          <a
-            href="http://github.com/cecam92"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i>
-              <img className="icon" src={github} alt="GitHub icon" />
-              <h6 className="icon-caption">GitHub</h6>
-            </i>
-          </a>
+          {socials.map((social) => {
+            return (
+              <a href={social.url} target="_blank" rel="noopener noreferrer">
+                <i>
+                  <img
+                    className="icon"
+                    src={social.icon}
+                    alt={`${social.name} icon`}
+                  />
+                  <h6 className="">{social.name} </h6>
+                </i>
+              </a>
+            );
+          })}
         </div>
       </section>
     </Fragment>

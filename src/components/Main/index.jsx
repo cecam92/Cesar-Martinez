@@ -11,6 +11,7 @@ import graph from "../../assets/graphql.png";
 import bootstrap from "../../assets/bootstrap.png";
 import galeria from "../../assets/galeria.png";
 import Technologies from "../Technologies";
+import Footer from "../Footer";
 
 const Main = () => {
   const projects = [
@@ -58,6 +59,7 @@ const Main = () => {
       <AboutMe />
       <Portfolio projects={projects} />
       <Technologies />
+      <Footer />
     </main>
   );
 };

@@ -60,7 +60,6 @@ section {
   padding: 5%;
   padding-bottom: 0%;
   flex-direction: column;
-  //justify-content: center;
   align-items: center;
   color: $darkColor;
   background-color: $ligthColor;
@@ -68,7 +67,7 @@ section {
 article {
   color: inherit;
   background-color: inherit;
-  padding-bottom: 5%;
+  padding: 5%;
 }
 article:nth-of-type(even) {
   background-color: $darkColor;

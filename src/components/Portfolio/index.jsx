@@ -5,16 +5,18 @@ import "./styles.scss";
 const Porfolio = (props) => {
   const { projects } = props;
 
+  const intro = `Portfolio's description`;
+
   return (
     <Fragment>
       <section className="projects ligth" id="portfolio">
         <h2 className="section-title">Portfolio</h2>
         <div className="text_container">
-          <p>Portfolio's description</p>
+          <p>{intro}</p>
         </div>
         {projects.map((project, index) => {
           return (
-            <article className="projects " key={index}>
+            <article key={index}>
               <h2 className="section-title">{project.title}</h2>
               <figure className="portfolio-image">
                 <img src={project.picture} alt="Portfolio" />
