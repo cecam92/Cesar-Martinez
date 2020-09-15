@@ -1,17 +1,23 @@
+@import "../../Variables.scss";
+
 .tech-container {
-  width: 100%;
   display: grid;
+  width: 100%;
   margin-top: 7%;
   grid-template-columns: 1fr 1fr;
-}
-
-.icoin-container {
-  width: 100%;
-  justify-content: flex-start;
-  display: flex;
-  flex-flow: row;
+  color: $darkColor;
   padding: 5%;
 }
-.icon-caption {
+.tech-icon {
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.tech-caption {
+  width: 80%;
+  color: inherit;
   padding-left: 7%;
 }

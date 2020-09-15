@@ -54,20 +54,26 @@ const AboutMe = () => {
         <figure className="imageBio">
           <img src={Kami} alt="that is me" />
         </figure>
-
-        {intro.map((parrafo) => {
-          return (
-            <div>
-              <p>{parrafo.paragraph}</p>
-              <br />
-            </div>
-          );
-        })}
-
-        <div className="icon-container">
-          {socials.map((social) => {
+        <div className="text_container">
+          {intro.map((paragraph, index) => {
             return (
-              <a href={social.url} target="_blank" rel="noopener noreferrer">
+              <p key={index}>
+                {paragraph.paragraph}
+                <br />
+                <br />
+              </p>
+            );
+          })}
+        </div>
+        <div className="icon-container">
+          {socials.map((social, index) => {
+            return (
+              <a
+                key={index}
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i>
                   <img
                     className="icon"

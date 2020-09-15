@@ -5,11 +5,11 @@ import "./styles.scss";
 const Porfolio = (props) => {
   const { projects } = props;
 
-  const intro = `Portfolio's description`;
+  const intro = `Here you can find some of my projects that I have developed by my own as a frontend developer.`;
 
   return (
     <Fragment>
-      <section className="projects ligth" id="portfolio">
+      <section className="projects" id="portfolio">
         <h2 className="section-title">Portfolio</h2>
         <div className="text_container">
           <p>{intro}</p>
@@ -22,14 +22,7 @@ const Porfolio = (props) => {
                 <img src={project.picture} alt="Portfolio" />
               </figure>
               <div className="text_container">
-                <p>
-                  I am a Network Engineer and highly skilled Frontend Developer
-                  on Single Page Applications with React JS. I have knowledge
-                  and good practices of Hooks, Redux, Router, SASS, RESTful and
-                  GraphQL APIs. I'm a problem solver, strong team player, quick
-                  learner and adaptable person, who delivers reliable results
-                  with excellent project management skills.
-                </p>
+                <p>{project.description}</p>
               </div>
               <div className="section-buttons">
                 <div className="buttons-container">
