@@ -10,6 +10,7 @@ import Bootstrap from "../../assets/bootstrap.png";
 import Github from "../../assets/github.png";
 import Sass from "../../assets/sass.png";
 import Redux from "../../assets/redux.png";
+import Rest from "../../assets/rest.png";
 import Swift from "../../assets/swift.png";
 
 const Technologies = () => {
@@ -19,7 +20,8 @@ const Technologies = () => {
     { name: "JavaScript", icon: JS },
     { name: "React & Native", icon: ReactIcon },
     { name: "Redux", icon: Redux },
-    { name: "GraphQL", icon: Graph },
+    { name: "GraphQL API", icon: Graph },
+    { name: "Restful API", icon: Rest },
     { name: "Bootstrap", icon: Bootstrap },
     { name: "GitHub", icon: Github },
     { name: "Sass", icon: Sass },

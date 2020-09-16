@@ -5,7 +5,9 @@ import "./styles.scss";
 const Porfolio = (props) => {
   const { projects } = props;
 
-  const intro = `Here you can find some of my projects that I have developed by my own as a frontend developer.`;
+  const intro = `Here you can find some of my projects as a frontend developer. I have developed cross-platform  
+  Single Pages Aplication (SPA), using current techonlogies like CSS preprocessor and frameworks, Hooks, 
+  Routering and version control that you can check for each project.`;
 
   return (
     <Fragment>
@@ -17,12 +19,20 @@ const Porfolio = (props) => {
         {projects.map((project, index) => {
           return (
             <article key={index}>
-              <h2 className="section-title">{project.title}</h2>
+              <h2 className="project-title">{project.title}</h2>
               <figure className="portfolio-image">
                 <img src={project.picture} alt="Portfolio" />
               </figure>
               <div className="text_container">
-                <p>{project.description}</p>
+                {project.description.map((info, index) => {
+                  return (
+                    <p key={index}>
+                      {info.paragraph}
+                      <br />
+                      <br />
+                    </p>
+                  );
+                })}
               </div>
               <div className="section-buttons">
                 <div className="buttons-container">
