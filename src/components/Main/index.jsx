@@ -44,16 +44,15 @@ const Main = () => {
       repository: "https://github.com/cecam92/RickandMorty",
     },
     {
-      title: "Layout Galeria",
+      title: "Galeria",
       description: [
         {
-          paragraph: ` I decided to create this site where you can find every character 
-        of this television show with some of their details.`,
+          paragraph: `Galeria is a non-funtional SPA, The intencion of this proyect is the creation of a eCommerce mockup with a CSS framework like Bootstrap,
+          and variety of React Components.`,
         },
         {
-          paragraph: `   I realized an infinite scroll single page application on React Js fetching data from the RESTful API and 
-      managing the requested data with Redux. I also used React Router which redirect the user to any character by its id 
-      and with GraphQL I request the correspondent data. e.g. (https://cecam92.github.io/RickandMorty/#/characters/265)`,
+          paragraph: `In this mockup has the most common components in a website like, forms, breadcrumbs, carousel, 
+          portals and dropdown navigation bar.`,
         },
       ],
       techs: [

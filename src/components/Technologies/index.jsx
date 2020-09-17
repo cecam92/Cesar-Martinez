@@ -12,6 +12,7 @@ import Sass from "../../assets/sass.png";
 import Redux from "../../assets/redux.png";
 import Rest from "../../assets/rest.png";
 import Swift from "../../assets/swift.png";
+import Typescript from "../../assets/typescript.png";
 
 const Technologies = () => {
   const techs = [
@@ -26,6 +27,7 @@ const Technologies = () => {
     { name: "GitHub", icon: Github },
     { name: "Sass", icon: Sass },
     { name: "Swift", icon: Swift },
+    { name: "TypeScript", icon: Typescript },
   ];
   return (
     <Fragment>
