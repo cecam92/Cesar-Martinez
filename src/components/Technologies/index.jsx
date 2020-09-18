@@ -22,7 +22,7 @@ const Technologies = () => {
     { name: "React & Native", icon: ReactIcon },
     { name: "Redux", icon: Redux },
     { name: "GraphQL API", icon: Graph },
-    { name: "Restful API", icon: Rest },
+    { name: "RESTful API", icon: Rest },
     { name: "Bootstrap", icon: Bootstrap },
     { name: "GitHub", icon: Github },
     { name: "Sass", icon: Sass },

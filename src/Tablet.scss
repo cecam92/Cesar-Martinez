@@ -1,0 +1,62 @@
+@import "./Variables.scss";
+
+html {
+  font-size: 80.5%;
+}
+body {
+  justify-content: center;
+}
+
+section {
+  min-height: 80vh;
+}
+.section-buttons {
+  padding: 0%;
+}
+
+.icon-container {
+  max-width: 70%;
+  margin: 5% auto;
+}
+.btn.btn-primary {
+  min-width: 70px;
+  height: 100%;
+  font-size: 1.5rem;
+}
+.btn a {
+  color: $ligthColor;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.portfolio-image {
+  justify-content: center;
+  display: flex;
+  object-fit: fill;
+  margin: 0%;
+
+  img {
+    max-width: 60%;
+    max-height: 60%;
+  }
+}
+.tech-container {
+  grid-template-columns: 40% 40%;
+  padding: 8% 0% 5% 20%;
+}
+.tech-icon {
+  display: flex;
+  flex-direction: row;
+  padding: 10%;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.tech-caption {
+  width: 80%;
+  color: inherit;
+  padding-left: 7%;
+}
