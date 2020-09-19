@@ -12,18 +12,18 @@ const Porfolio = (props) => {
   return (
     <Fragment>
       <section className="projects" id="portfolio">
-        <h2 className="section-title">Portfolio</h2>
-        <div className="text_container">
+        <h2 className="section-title light">Portfolio</h2>
+        <div className="text_container ">
           <p>{intro}</p>
         </div>
         {projects.map((project, index) => {
           return (
-            <article key={index}>
+            <article key={index} className="project">
               <h2 className="project-title">{project.title}</h2>
               <figure className="portfolio-image">
                 <img src={project.picture} alt="Portfolio" />
               </figure>
-              <div className="text_container">
+              <div className="text_container project-description">
                 {project.description.map((info, index) => {
                   return (
                     <p key={index}>

@@ -49,7 +49,7 @@ const AboutMe = () => {
   ];
   return (
     <Fragment>
-      <section id="about" className="dark">
+      <section id="about" className=" about dark">
         <h2 className="section-title ">Who Am I?</h2>
         <figure className="imageBio">
           <img src={Kami} alt="that is me" />
