@@ -39,7 +39,6 @@ const Home = () => {
       window.removeEventListener("scroll", scrolling);
     };
   }, [data]);
-  console.log(data);
 
   return (
     <Fragment>

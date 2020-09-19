@@ -125,7 +125,6 @@ i {
 
 .buttons-container {
   width: 50%;
-  height: 5vh;
   display: flex;
   margin: 0% 10%;
   justify-content: space-around;
@@ -156,7 +155,7 @@ i {
   height: 40px;
 }
 
-.portfolio-image {
+.portfolio-image-small {
   justify-content: center;
   display: flex;
   object-fit: fill;
@@ -167,6 +166,7 @@ i {
     height: 80%;
   }
 }
+
 .icon-caption {
   display: flex;
   color: inherit;

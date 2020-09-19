@@ -10,6 +10,8 @@ import ReactIcon from "../../assets/react.png";
 import Sass from "../../assets/sass.png";
 import Rest from "../../assets/rest.png";
 import Rick from "../../assets/pickle.png";
+import RickLaptop from "../../assets/RickLaptop.png";
+
 import graph from "../../assets/graphql.png";
 import bootstrap from "../../assets/bootstrap.png";
 import galeria from "../../assets/galeria.png";
@@ -39,7 +41,8 @@ const Main = () => {
         { name: "redux", icon: Redux },
         { name: "Sass", icon: Sass },
       ],
-      picture: Rick,
+      pictureSm: Rick,
+      pictureLg: RickLaptop,
       url: "https://cecam92.github.io/RickandMorty/",
       repository: "https://github.com/cecam92/RickandMorty",
     },
@@ -62,7 +65,7 @@ const Main = () => {
         { name: "React", icon: ReactIcon },
         { name: "bootstrap", icon: bootstrap },
       ],
-      picture: galeria,
+      pictureSm: galeria,
       url: "https://cecam92.github.io/Galeria/",
       repository: "https://github.com/cecam92/Galeria",
     },

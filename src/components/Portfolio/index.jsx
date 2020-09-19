@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import Button from "react-bootstrap/button";
 import "./styles.scss";
 
@@ -8,7 +8,19 @@ const Porfolio = (props) => {
   const intro = `Here you can find some of my projects as a frontend developer. I have developed cross-platform  
   Single Pages Aplication (SPA), using current techonlogies like CSS preprocessors, CSS frameworks, Hooks, 
   Routering and version control that you can check for each project.`;
+  const [showLarge, setShowLarge] = useState(false);
 
+  function getWid() {
+    window.innerWidth >= 1000 ? setShowLarge(true) : setShowLarge(false);
+  }
+  useEffect(() => {
+    getWid();
+    window.addEventListener("resize", getWid);
+
+    return () => {
+      window.removeEventListener("resize", getWid);
+    };
+  });
   return (
     <Fragment>
       <section className="projects" id="portfolio">
@@ -20,9 +32,16 @@ const Porfolio = (props) => {
           return (
             <article key={index} className="project">
               <h2 className="project-title">{project.title}</h2>
-              <figure className="portfolio-image">
-                <img src={project.picture} alt="Portfolio" />
-              </figure>
+              <div className="portfolio__container-image">
+                <figure className="portfolio-image-small">
+                  <img src={project.pictureSm} alt="Portfolio" />
+                </figure>
+                {showLarge && (
+                  <figure className="portfolio-image-large">
+                    <img src={project.pictureLg} alt="Portfolio" />
+                  </figure>
+                )}
+              </div>
               <div className="text_container project-description">
                 {project.description.map((info, index) => {
                   return (
