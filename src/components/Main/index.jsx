@@ -15,6 +15,8 @@ import RickLaptop from "../../assets/RickLaptop.png";
 import graph from "../../assets/graphql.png";
 import bootstrap from "../../assets/bootstrap.png";
 import galeria from "../../assets/galeria.png";
+import GaleriaLg from "../../assets/galeriaLg.png";
+
 import Technologies from "../Technologies";
 import Footer from "../Footer";
 
@@ -66,6 +68,7 @@ const Main = () => {
         { name: "bootstrap", icon: bootstrap },
       ],
       pictureSm: galeria,
+      pictureLg: GaleriaLg,
       url: "https://cecam92.github.io/Galeria/",
       repository: "https://github.com/cecam92/Galeria",
     },

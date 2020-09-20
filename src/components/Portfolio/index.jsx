@@ -26,19 +26,25 @@ const Porfolio = (props) => {
       <section className="projects" id="portfolio">
         <h2 className="section-title light">Portfolio</h2>
         <div className="text_container ">
-          <p>{intro}</p>
+          <p>
+            {intro}
+            <br />
+            <br />
+          </p>
         </div>
         {projects.map((project, index) => {
           return (
             <article key={index} className="project">
               <h2 className="project-title">{project.title}</h2>
               <div className="portfolio__container-image">
-                <figure className="portfolio-image-small">
-                  <img src={project.pictureSm} alt="Portfolio" />
-                </figure>
                 {showLarge && (
                   <figure className="portfolio-image-large">
                     <img src={project.pictureLg} alt="Portfolio" />
+                  </figure>
+                )}
+                {!showLarge && (
+                  <figure className="portfolio-image-small">
+                    <img src={project.pictureSm} alt="Portfolio" />
                   </figure>
                 )}
               </div>
