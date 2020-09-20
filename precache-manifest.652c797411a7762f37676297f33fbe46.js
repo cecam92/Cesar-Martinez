@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc77d863104877f18361337ba55b5aec",
+    "revision": "6f9ed8cff2241583d0f584b3e4573883",
     "url": "/Cesar-Martinez/index.html"
   },
   {
-    "revision": "1f48b43cd00934c3a413",
-    "url": "/Cesar-Martinez/static/css/main.3cc1222d.chunk.css"
+    "revision": "fb0d4bc56e109c216fdb",
+    "url": "/Cesar-Martinez/static/css/main.22ab6b5c.chunk.css"
   },
   {
     "revision": "868454b22519e2e0640a",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cesar-Martinez/static/js/2.f46091f8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f48b43cd00934c3a413",
+    "revision": "fb0d4bc56e109c216fdb",
     "url": "/Cesar-Martinez/static/js/main.b6ae4473.chunk.js"
   },
   {
