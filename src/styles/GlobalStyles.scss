@@ -63,7 +63,7 @@ section {
   background-color: $ligthColor;
 }
 figure {
-  margin: 1rem 0;
+  margin: 1rem auto;
 }
 
 Footer {
@@ -135,7 +135,7 @@ i {
 }
 .icon-container {
   display: flex;
-  width: 90%;
+  max-width: 90%;
   margin: 5% auto;
   justify-content: space-around;
   align-content: center;
@@ -196,6 +196,10 @@ i {
 @media screen and (min-width: 700px) {
   @import "./Tablet.scss";
 }
+
 @media screen and (min-width: 1000px) {
   @import "./Laptop.scss";
+}
+@media screen and (min-width: 1025px) {
+  @import "./Monitor.scss";
 }
