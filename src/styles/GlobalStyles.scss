@@ -40,6 +40,10 @@ h3 {
   font-size: 1.8rem;
   color: $primary;
 }
+h6 {
+  margin: 0px;
+}
+
 main {
   display: flex;
   width: 100vw;
@@ -65,12 +69,12 @@ figure {
   margin: 1rem auto;
 }
 
-Footer {
+footer {
   display: flex;
   background-color: $primary;
-  height: 10%;
+  height: 20px;
   justify-content: center;
-  align-content: flex-end;
+  align-items: center;
 }
 
 .section-title {
