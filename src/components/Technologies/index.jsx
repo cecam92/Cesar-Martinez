@@ -31,12 +31,12 @@ const Technologies = () => {
   ];
   return (
     <Fragment>
-      <section id="tech">
+      <section id="tech" className="dark">
         <h2 className="section-title">Technologies</h2>
-        <div className="tech-container ">
+        <div className="tech-container  ">
           {techs.map((tech, index) => {
             return (
-              <i className="tech-icon" key={index}>
+              <i className="tech-icon dark" key={index}>
                 <img className="icon" src={tech.icon} alt="html icon" />
                 <div className="tech-caption">
                   <p>{tech.name}</p>

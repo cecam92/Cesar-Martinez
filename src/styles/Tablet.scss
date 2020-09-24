@@ -38,7 +38,8 @@ article {
   grid-row-end: 3;
 }
 
-.portfolio__container-image {
+.portfolio-image-small,
+.portfolio-image-large {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
@@ -51,10 +52,6 @@ article {
   height: 100%;
 }
 
-.portfolio-image-large img {
-  border-radius: 15px;
-  width: 100%;
-}
 .text_container {
   text-align: justify;
   color: inherit;

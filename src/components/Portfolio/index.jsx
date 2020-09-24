@@ -36,18 +36,21 @@ const Porfolio = (props) => {
           return (
             <article key={index} className="project">
               <h2 className="project-title">{project.title}</h2>
-              <div className="portfolio__container-image">
-                {showLarge && (
-                  <figure className="portfolio-image-large">
-                    <img src={project.pictureLg} alt="Portfolio" />
-                  </figure>
-                )}
-                {!showLarge && (
-                  <figure className="portfolio-image-small">
-                    <img src={project.pictureSm} alt="Portfolio" />
-                  </figure>
-                )}
-              </div>
+
+              {project.pictureLg
+                ? null
+                : (project.pictureLg = project.pictureSm)}
+              {showLarge && (
+                <figure className="portfolio-image-large">
+                  <img src={project.pictureLg} alt="Portfolio" />
+                </figure>
+              )}
+              {!showLarge && (
+                <figure className="portfolio-image-small">
+                  <img src={project.pictureSm} alt="Portfolio" />
+                </figure>
+              )}
+
               <div className="text_container project-description">
                 {project.description.map((info, index) => {
                   return (
@@ -59,17 +62,20 @@ const Porfolio = (props) => {
                   );
                 })}
               </div>
+
               <div className="section-buttons">
                 <div className="buttons-container">
-                  <Button className="btn btn-primary">
-                    <a
-                      href={project.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Demo
-                    </a>
-                  </Button>
+                  {project.url && (
+                    <Button className="btn btn-primary">
+                      <a
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Demo
+                      </a>
+                    </Button>
+                  )}
                   <Button className="btn btn-primary">
                     <a
                       href={project.repository}

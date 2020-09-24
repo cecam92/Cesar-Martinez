@@ -15,7 +15,11 @@ article {
 .buttons-container {
   width: 40%;
 }
-
+.portfolio-image-large img {
+  border-radius: 15px;
+  max-width: 100%;
+  max-height: 70vh;
+}
 .icon-container {
   width: 600px;
 }

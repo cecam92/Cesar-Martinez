@@ -16,6 +16,7 @@ import graph from "../../assets/graphql.png";
 import bootstrap from "../../assets/bootstrap.png";
 import galeria from "../../assets/galeria.png";
 import GaleriaLg from "../../assets/galeriaLg.png";
+import Crypto from "../../assets/crypto.png";
 
 import Technologies from "../Technologies";
 import Footer from "../Footer";
@@ -63,7 +64,7 @@ const Main = () => {
       techs: [
         { name: "html", icon: HTML },
         { name: "CSS", icon: CSS },
-        { name: "JS", icon: JS },
+        { name: "JavaScript", icon: JS },
         { name: "React", icon: ReactIcon },
         { name: "bootstrap", icon: bootstrap },
       ],
@@ -71,6 +72,25 @@ const Main = () => {
       pictureLg: GaleriaLg,
       url: "https://cecam92.github.io/Galeria/",
       repository: "https://github.com/cecam92/Galeria",
+    },
+    {
+      title: "CryptoTracker",
+      description: [
+        {
+          paragraph: `CryptoTracker.`,
+        },
+        {
+          paragraph: `In this mockup has the most common components in a website like, forms, breadcrumbs, carousel, 
+          portals and dropdown navigation bar.`,
+        },
+      ],
+      techs: [
+        { name: "React Native", icon: ReactIcon },
+        { name: "CSS", icon: CSS },
+        { name: "JavaScript", icon: JS },
+      ],
+      pictureSm: Crypto,
+      repository: "https://github.com/cecam92/CryptoTracker",
     },
   ];
   return (
