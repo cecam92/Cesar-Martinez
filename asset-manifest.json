@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Cesar-Martinez/static/css/main.5533bcb7.chunk.css",
-    "main.js": "/Cesar-Martinez/static/js/main.b6ae4473.chunk.js",
-    "main.js.map": "/Cesar-Martinez/static/js/main.b6ae4473.chunk.js.map",
+    "main.css": "/Cesar-Martinez/static/css/main.9c2030af.chunk.css",
+    "main.js": "/Cesar-Martinez/static/js/main.f83491dd.chunk.js",
+    "main.js.map": "/Cesar-Martinez/static/js/main.f83491dd.chunk.js.map",
     "runtime-main.js": "/Cesar-Martinez/static/js/runtime-main.608824cd.js",
     "runtime-main.js.map": "/Cesar-Martinez/static/js/runtime-main.608824cd.js.map",
-    "static/js/2.f46091f8.chunk.js": "/Cesar-Martinez/static/js/2.f46091f8.chunk.js",
-    "static/js/2.f46091f8.chunk.js.map": "/Cesar-Martinez/static/js/2.f46091f8.chunk.js.map",
+    "static/js/2.a904c202.chunk.js": "/Cesar-Martinez/static/js/2.a904c202.chunk.js",
+    "static/js/2.a904c202.chunk.js.map": "/Cesar-Martinez/static/js/2.a904c202.chunk.js.map",
     "index.html": "/Cesar-Martinez/index.html",
-    "precache-manifest.497cd941d0479081189301e37aadb4c5.js": "/Cesar-Martinez/precache-manifest.497cd941d0479081189301e37aadb4c5.js",
+    "precache-manifest.d8a76e9c41e0bd05ce48c28fb2d32773.js": "/Cesar-Martinez/precache-manifest.d8a76e9c41e0bd05ce48c28fb2d32773.js",
     "service-worker.js": "/Cesar-Martinez/service-worker.js",
-    "static/css/main.5533bcb7.chunk.css.map": "/Cesar-Martinez/static/css/main.5533bcb7.chunk.css.map",
-    "static/js/2.f46091f8.chunk.js.LICENSE.txt": "/Cesar-Martinez/static/js/2.f46091f8.chunk.js.LICENSE.txt",
+    "static/css/main.9c2030af.chunk.css.map": "/Cesar-Martinez/static/css/main.9c2030af.chunk.css.map",
+    "static/js/2.a904c202.chunk.js.LICENSE.txt": "/Cesar-Martinez/static/js/2.a904c202.chunk.js.LICENSE.txt",
     "static/media/Kami.png": "/Cesar-Martinez/static/media/Kami.269640a9.png",
     "static/media/RickLaptop.png": "/Cesar-Martinez/static/media/RickLaptop.6ae0342a.png",
     "static/media/bootstrap.png": "/Cesar-Martinez/static/media/bootstrap.ce2c3668.png",
+    "static/media/crypto.png": "/Cesar-Martinez/static/media/crypto.dc799cdd.png",
     "static/media/css.png": "/Cesar-Martinez/static/media/css.7b174c7d.png",
     "static/media/galeria.png": "/Cesar-Martinez/static/media/galeria.d070ef38.png",
     "static/media/galeriaLg.png": "/Cesar-Martinez/static/media/galeriaLg.ce630b66.png",
@@ -30,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.608824cd.js",
-    "static/js/2.f46091f8.chunk.js",
-    "static/css/main.5533bcb7.chunk.css",
-    "static/js/main.b6ae4473.chunk.js"
+    "static/js/2.a904c202.chunk.js",
+    "static/css/main.9c2030af.chunk.css",
+    "static/js/main.f83491dd.chunk.js"
   ]
 }
