@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Cesar-Martinez/static/css/main.9c2030af.chunk.css",
-    "main.js": "/Cesar-Martinez/static/js/main.b89c1467.chunk.js",
-    "main.js.map": "/Cesar-Martinez/static/js/main.b89c1467.chunk.js.map",
+    "main.js": "/Cesar-Martinez/static/js/main.021062b1.chunk.js",
+    "main.js.map": "/Cesar-Martinez/static/js/main.021062b1.chunk.js.map",
     "runtime-main.js": "/Cesar-Martinez/static/js/runtime-main.608824cd.js",
     "runtime-main.js.map": "/Cesar-Martinez/static/js/runtime-main.608824cd.js.map",
-    "static/js/2.a904c202.chunk.js": "/Cesar-Martinez/static/js/2.a904c202.chunk.js",
-    "static/js/2.a904c202.chunk.js.map": "/Cesar-Martinez/static/js/2.a904c202.chunk.js.map",
+    "static/js/2.8cdbe84c.chunk.js": "/Cesar-Martinez/static/js/2.8cdbe84c.chunk.js",
+    "static/js/2.8cdbe84c.chunk.js.map": "/Cesar-Martinez/static/js/2.8cdbe84c.chunk.js.map",
     "index.html": "/Cesar-Martinez/index.html",
-    "precache-manifest.5bfe7b752233d60303d29033054fcea2.js": "/Cesar-Martinez/precache-manifest.5bfe7b752233d60303d29033054fcea2.js",
+    "precache-manifest.43aa80a205077c12a3066139abb77c3a.js": "/Cesar-Martinez/precache-manifest.43aa80a205077c12a3066139abb77c3a.js",
     "service-worker.js": "/Cesar-Martinez/service-worker.js",
     "static/css/main.9c2030af.chunk.css.map": "/Cesar-Martinez/static/css/main.9c2030af.chunk.css.map",
-    "static/js/2.a904c202.chunk.js.LICENSE.txt": "/Cesar-Martinez/static/js/2.a904c202.chunk.js.LICENSE.txt",
+    "static/js/2.8cdbe84c.chunk.js.LICENSE.txt": "/Cesar-Martinez/static/js/2.8cdbe84c.chunk.js.LICENSE.txt",
     "static/media/Kami.png": "/Cesar-Martinez/static/media/Kami.269640a9.png",
     "static/media/RickLaptop.png": "/Cesar-Martinez/static/media/RickLaptop.6ae0342a.png",
     "static/media/bootstrap.png": "/Cesar-Martinez/static/media/bootstrap.ce2c3668.png",
@@ -23,6 +23,7 @@
     "static/media/html.png": "/Cesar-Martinez/static/media/html.70d6173e.png",
     "static/media/instagram.png": "/Cesar-Martinez/static/media/instagram.5cdaebf1.png",
     "static/media/js.png": "/Cesar-Martinez/static/media/js.a778d931.png",
+    "static/media/me.png": "/Cesar-Martinez/static/media/me.05f09f13.png",
     "static/media/pickle.png": "/Cesar-Martinez/static/media/pickle.61afcd3f.png",
     "static/media/react.png": "/Cesar-Martinez/static/media/react.3ed27365.png",
     "static/media/redux.png": "/Cesar-Martinez/static/media/redux.1535aa30.png",
@@ -31,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.608824cd.js",
-    "static/js/2.a904c202.chunk.js",
+    "static/js/2.8cdbe84c.chunk.js",
     "static/css/main.9c2030af.chunk.css",
-    "static/js/main.b89c1467.chunk.js"
+    "static/js/main.021062b1.chunk.js"
   ]
 }
