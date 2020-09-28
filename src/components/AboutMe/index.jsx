@@ -11,16 +11,17 @@ const AboutMe = () => {
   const intro = [
     {
       paragraph: `I am Cesar Martinez, I was born and raised in Cali, Colombia. 
-  Where I did a bachelor of Engineering, Computer and Network Engineering. 
-  In 2016, I moved to Perth, Australia, looking fordward to an enriching overseas experience while I studied English. 
-  After the English course, I decided to  do a Diploma of Leadership and Management to enhance my profesional skills. 
-  Since 2018, I am living in Melbourne where I accomplished an Advance Diploma of Information Technology.
+      There I completed a Bachelor of Engineering (Computer and Network Engineering). 
+      In 2016, I moved to Perth, Australia, looking forward to an enriching overseas experience and studying English. 
+      After the English course, I undertook a Diploma of Leadership and Management to enhance my professional skills. 
+      Since 2018, I have been living in Melbourne where I accomplished an Advanced Diploma of Information Technology.
   `,
     },
     {
-      paragraph: `As a curious person that enjoy learning new technologies and as complement of my engineering degree. 
-    I started to sharp my coding skills, beginning with Swift for IOS applications, 
-    followed by React JS for web development and React Native for mobile development.
+      paragraph: `As a curious person, I enjoy learning new technologies which complement my engineering degree. 
+      I have sharpened my coding skills, beginning with Swift for IOS applications, followed by React JS for web development 
+      and React Native for mobile development. I am always on the lookout for cutting edge platforms that streamline the user experience. 
+      
     `,
     },
   ];

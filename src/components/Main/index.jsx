@@ -27,13 +27,14 @@ const Main = () => {
       title: "Rick and Morty",
       description: [
         {
-          paragraph: ` I decided to create this website where you can find every character from the TV show Rick and Morty.
+          paragraph: ` I decided to create this website where you can find every character from the TV show Rick and Morty. 
           All the data presented in this project is from the open source Rick and Morty API.`,
         },
         {
-          paragraph: `   I realized an infinite scroll single page application on React Js. Fetching data from the RESTful API and 
-      managing the requested data with Redux. Using React Router allows me to redirect the user to any character by tipping its Id
-      and from the GraphQL API I request the information of the selected character.`,
+          paragraph: `  I realized an infinite scroll single page application on React JS. 
+          The SPA fetches data from the RESTful API and manages the requested data with Redux. 
+          Using React Router allows me to redirect the user to any character by typing its ID, and from the GraphQL API I 
+          request the information of the selected character.`,
         },
       ],
 
@@ -53,12 +54,13 @@ const Main = () => {
       title: "Galeria",
       description: [
         {
-          paragraph: `Galeria is a non-funtional SPA, The intencion of this proyect is the creation of a eCommerce mockup with a CSS framework like Bootstrap,
-          and variety of React Components.`,
+          paragraph: `Galeria is a non-functional SPA. The intention of this project is to create an eCommerce mock-up with a CSS framework 
+          such as Bootstrap, and a variety of React Components.`,
         },
         {
-          paragraph: `In this mockup has the most common components in a website like, forms, breadcrumbs, carousel, 
-          portals and dropdown navigation bar.`,
+          paragraph: `This mock-up has the most common components in a website, like forms, breadcrumbs, carousel, 
+          portals and a dropdown navigation bar. The framework of the online store is ready-made for customisation and the 
+          clean-cut style of the site simplifies the user’s experience. `,
         },
       ],
       techs: [
