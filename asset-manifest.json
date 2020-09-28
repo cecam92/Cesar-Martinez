@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Cesar-Martinez/static/css/main.9c2030af.chunk.css",
-    "main.js": "/Cesar-Martinez/static/js/main.4ea0635d.chunk.js",
-    "main.js.map": "/Cesar-Martinez/static/js/main.4ea0635d.chunk.js.map",
+    "main.js": "/Cesar-Martinez/static/js/main.b89c1467.chunk.js",
+    "main.js.map": "/Cesar-Martinez/static/js/main.b89c1467.chunk.js.map",
     "runtime-main.js": "/Cesar-Martinez/static/js/runtime-main.608824cd.js",
     "runtime-main.js.map": "/Cesar-Martinez/static/js/runtime-main.608824cd.js.map",
     "static/js/2.a904c202.chunk.js": "/Cesar-Martinez/static/js/2.a904c202.chunk.js",
     "static/js/2.a904c202.chunk.js.map": "/Cesar-Martinez/static/js/2.a904c202.chunk.js.map",
     "index.html": "/Cesar-Martinez/index.html",
-    "precache-manifest.5d575961b23540243fab7d7665c16c41.js": "/Cesar-Martinez/precache-manifest.5d575961b23540243fab7d7665c16c41.js",
+    "precache-manifest.5bfe7b752233d60303d29033054fcea2.js": "/Cesar-Martinez/precache-manifest.5bfe7b752233d60303d29033054fcea2.js",
     "service-worker.js": "/Cesar-Martinez/service-worker.js",
     "static/css/main.9c2030af.chunk.css.map": "/Cesar-Martinez/static/css/main.9c2030af.chunk.css.map",
     "static/js/2.a904c202.chunk.js.LICENSE.txt": "/Cesar-Martinez/static/js/2.a904c202.chunk.js.LICENSE.txt",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.608824cd.js",
     "static/js/2.a904c202.chunk.js",
     "static/css/main.9c2030af.chunk.css",
-    "static/js/main.4ea0635d.chunk.js"
+    "static/js/main.b89c1467.chunk.js"
   ]
 }
