@@ -36,13 +36,13 @@ const Porfolio = (props) => {
           return (
             <article key={index} className="project">
               <h2 className="project-title">{project.title}</h2>
-
-              {project.pictureLg
-                ? null
-                : (project.pictureLg = project.pictureSm)}
               {showLarge && (
                 <figure className="portfolio-image-large">
-                  <img src={project.pictureLg} alt="Portfolio" />
+                  {project.pictureLg ? (
+                    <img src={project.pictureLg} alt="Portfolio" />
+                  ) : (
+                    <img src={project.pictureSm} alt="Portfolio" />
+                  )}
                 </figure>
               )}
               {!showLarge && (
@@ -50,7 +50,6 @@ const Porfolio = (props) => {
                   <img src={project.pictureSm} alt="Portfolio" />
                 </figure>
               )}
-
               <div className="text_container project-description">
                 {project.description.map((info, index) => {
                   return (
@@ -62,7 +61,6 @@ const Porfolio = (props) => {
                   );
                 })}
               </div>
-
               <div className="section-buttons">
                 <div className="buttons-container">
                   {project.url && (
