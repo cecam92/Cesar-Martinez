@@ -79,7 +79,7 @@ const Main = () => {
       title: "CryptoTracker",
       description: [
         {
-          paragraph: `CryptoTracker.`,
+          paragraph: `CryptoTracker is an IOS and Android mobile application developed in React Native.`,
         },
         {
           paragraph: `In this mockup has the most common components in a website like, forms, breadcrumbs, carousel, 

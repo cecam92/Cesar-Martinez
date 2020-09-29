@@ -6,6 +6,7 @@ import linkedin from "../../assets/linkedin.png";
 import twitter from "../../assets/twitter.png";
 import instagram from "../../assets/instagram.png";
 import github from "../../assets/github.png";
+import Cesar from "../../assets/me.png";
 
 const AboutMe = () => {
   const intro = [
@@ -53,7 +54,7 @@ const AboutMe = () => {
       <section id="about" className=" about dark">
         <h2 className="section-title ">Who Am I?</h2>
         <figure className="imageBio">
-          <img src={Kami} alt="that is me" />
+          <img src={Cesar} alt="that is me" />
         </figure>
         <div className="text_container">
           {intro.map((paragraph, index) => {
