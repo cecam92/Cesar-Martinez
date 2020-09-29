@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42a32f0a6647608f027737fcec0cf2b0",
+    "revision": "27e6721cc4863de7b2b47a5691cae9ce",
     "url": "/Cesar-Martinez/index.html"
   },
   {
-    "revision": "dd8a02816dfaefcf96b5",
+    "revision": "afd121dbe7a10cf273f1",
     "url": "/Cesar-Martinez/static/css/main.9c2030af.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cesar-Martinez/static/js/2.8cdbe84c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd8a02816dfaefcf96b5",
-    "url": "/Cesar-Martinez/static/js/main.021062b1.chunk.js"
+    "revision": "afd121dbe7a10cf273f1",
+    "url": "/Cesar-Martinez/static/js/main.5b75c016.chunk.js"
   },
   {
     "revision": "b7df867cdcf35c4d1c4a",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cesar-Martinez/static/media/bootstrap.ce2c3668.png"
   },
   {
-    "revision": "dc799cdd5b90c194f32cbdb1ff5b0d98",
-    "url": "/Cesar-Martinez/static/media/crypto.dc799cdd.png"
+    "revision": "3b276aa1c4d016dae6967f25dcb739da",
+    "url": "/Cesar-Martinez/static/media/crypto.3b276aa1.png"
   },
   {
     "revision": "7b174c7d2ff76b8621d6fca063f62903",
