@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import Kami from "../../assets/Kami.png";
 import "./styles.scss";
-
+import Button from "react-bootstrap/button";
 import linkedin from "../../assets/linkedin.png";
+import CV from "../../assets/cv.pdf";
 import twitter from "../../assets/twitter.png";
 import instagram from "../../assets/instagram.png";
 import github from "../../assets/github.png";
@@ -22,7 +22,7 @@ const AboutMe = () => {
       paragraph: `As a curious person, I enjoy learning new technologies which complement my engineering degree. 
       I have sharpened my coding skills, beginning with Swift for IOS applications, followed by React JS for web development 
       and React Native for mobile development. I am always on the lookout for cutting edge platforms that streamline the user experience. 
-      
+    
     `,
     },
   ];
@@ -66,6 +66,11 @@ const AboutMe = () => {
               </p>
             );
           })}
+          <Button className="btn btn-primary">
+            <a href={CV} target="_blank" rel="noopener noreferrer">
+              CV
+            </a>
+          </Button>
         </div>
         <div className="icon-container">
           {socials.map((social, index) => {

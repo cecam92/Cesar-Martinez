@@ -40,9 +40,9 @@ const Main = () => {
 
       techs: [
         { name: "React", icon: ReactIcon },
-        { name: "graphQL", icon: graph },
-        { name: "Rest", icon: Rest },
-        { name: "redux", icon: Redux },
+        { name: "GraphQL", icon: graph },
+        { name: "REST", icon: Rest },
+        { name: "Redux", icon: Redux },
         { name: "Sass", icon: Sass },
       ],
       pictureSm: Rick,
@@ -64,11 +64,11 @@ const Main = () => {
         },
       ],
       techs: [
-        { name: "html", icon: HTML },
+        { name: "Html", icon: HTML },
         { name: "CSS", icon: CSS },
         { name: "JavaScript", icon: JS },
         { name: "React", icon: ReactIcon },
-        { name: "bootstrap", icon: bootstrap },
+        { name: "Bootstrap", icon: bootstrap },
       ],
       pictureSm: galeria,
       pictureLg: GaleriaLg,
@@ -79,15 +79,18 @@ const Main = () => {
       title: "CryptoTracker",
       description: [
         {
-          paragraph: `CryptoTracker is an IOS and Android mobile application developed in React Native.`,
+          paragraph: `CryptoTracker is an IOS and Android mobile application developed in React Native.
+          This app allows the user to follow the crypto coins' price in the market.`,
         },
         {
-          paragraph: `In this mockup has the most common components in a website like, forms, breadcrumbs, carousel, 
-          portals and dropdown navigation bar.`,
+          paragraph: `CryptoTracker shows the behaivor of the coins in the last hour, it's price in USD and thier value with other coins,
+            this data is gathering from open source RESTful API.
+          `,
         },
       ],
       techs: [
         { name: "React Native", icon: ReactIcon },
+        { name: "REST", icon: Rest },
         { name: "CSS", icon: CSS },
         { name: "JavaScript", icon: JS },
       ],
