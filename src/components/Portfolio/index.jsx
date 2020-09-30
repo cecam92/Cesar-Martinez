@@ -36,6 +36,7 @@ const Porfolio = (props) => {
           return (
             <article key={index} className="project">
               <h2 className="project-title">{project.title}</h2>
+
               {showLarge && (
                 <figure className="portfolio-image-large">
                   {project.pictureLg ? (
@@ -50,6 +51,7 @@ const Porfolio = (props) => {
                   <img src={project.pictureSm} alt="Portfolio" />
                 </figure>
               )}
+
               <div className="text_container project-description">
                 {project.description.map((info, index) => {
                   return (

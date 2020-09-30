@@ -65,13 +65,16 @@ const AboutMe = () => {
                 <br />
               </p>
             );
-          })}
-          <Button className="btn btn-primary">
-            <a href={CV} target="_blank" rel="noopener noreferrer">
-              CV
-            </a>
-          </Button>
+          })}{" "}
+          <div className="container d-flex justify-content-center">
+            <Button className="btn btn-primary justify-content-center">
+              <a href={CV} target="_blank" rel="noopener noreferrer">
+                Resume
+              </a>
+            </Button>
+          </div>
         </div>
+
         <div className="icon-container">
           {socials.map((social, index) => {
             return (
