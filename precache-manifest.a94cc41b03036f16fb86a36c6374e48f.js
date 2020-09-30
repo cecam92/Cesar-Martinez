@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "329faf6c47dfccd10bf6bf527f6cce65",
+    "revision": "16109f8c292f680cb75edacb5ebd3ed0",
     "url": "/Cesar-Martinez/index.html"
   },
   {
-    "revision": "0e55cfbc7af7cfe08a2a",
+    "revision": "2cb41b16e82f700ec9f7",
     "url": "/Cesar-Martinez/static/css/main.9c2030af.chunk.css"
   },
   {
-    "revision": "d24a3ced598477df8e94",
-    "url": "/Cesar-Martinez/static/js/2.abd4f793.chunk.js"
+    "revision": "91f6a127089522e0c7fc",
+    "url": "/Cesar-Martinez/static/js/2.2274cd8c.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Cesar-Martinez/static/js/2.abd4f793.chunk.js.LICENSE.txt"
+    "url": "/Cesar-Martinez/static/js/2.2274cd8c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0e55cfbc7af7cfe08a2a",
-    "url": "/Cesar-Martinez/static/js/main.1e25d041.chunk.js"
+    "revision": "2cb41b16e82f700ec9f7",
+    "url": "/Cesar-Martinez/static/js/main.aed85358.chunk.js"
   },
   {
     "revision": "b7df867cdcf35c4d1c4a",
     "url": "/Cesar-Martinez/static/js/runtime-main.608824cd.js"
-  },
-  {
-    "revision": "269640a9272718eefff1256e1e81af29",
-    "url": "/Cesar-Martinez/static/media/Kami.269640a9.png"
   },
   {
     "revision": "6ae0342a79e8b75e06519f365337f049",
@@ -42,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7b174c7d2ff76b8621d6fca063f62903",
     "url": "/Cesar-Martinez/static/media/css.7b174c7d.png"
+  },
+  {
+    "revision": "c74e0dcaf816f1862c1c9613f87b81a2",
+    "url": "/Cesar-Martinez/static/media/cv.c74e0dca.pdf"
   },
   {
     "revision": "d070ef38a13eb51c1093c0ebebd2b5d0",
