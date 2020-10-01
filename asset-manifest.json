@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Cesar-Martinez/static/css/main.d98a3cf8.chunk.css",
-    "main.js": "/Cesar-Martinez/static/js/main.652c45fe.chunk.js",
-    "main.js.map": "/Cesar-Martinez/static/js/main.652c45fe.chunk.js.map",
+    "main.css": "/Cesar-Martinez/static/css/main.5df169a3.chunk.css",
+    "main.js": "/Cesar-Martinez/static/js/main.528b9d96.chunk.js",
+    "main.js.map": "/Cesar-Martinez/static/js/main.528b9d96.chunk.js.map",
     "runtime-main.js": "/Cesar-Martinez/static/js/runtime-main.608824cd.js",
     "runtime-main.js.map": "/Cesar-Martinez/static/js/runtime-main.608824cd.js.map",
-    "static/js/2.2274cd8c.chunk.js": "/Cesar-Martinez/static/js/2.2274cd8c.chunk.js",
-    "static/js/2.2274cd8c.chunk.js.map": "/Cesar-Martinez/static/js/2.2274cd8c.chunk.js.map",
+    "static/js/2.e731132e.chunk.js": "/Cesar-Martinez/static/js/2.e731132e.chunk.js",
+    "static/js/2.e731132e.chunk.js.map": "/Cesar-Martinez/static/js/2.e731132e.chunk.js.map",
     "index.html": "/Cesar-Martinez/index.html",
-    "precache-manifest.3815fdd453dd4d21beb1c65a7863f698.js": "/Cesar-Martinez/precache-manifest.3815fdd453dd4d21beb1c65a7863f698.js",
+    "precache-manifest.b037efca952c23889866fea8dfa5441d.js": "/Cesar-Martinez/precache-manifest.b037efca952c23889866fea8dfa5441d.js",
     "service-worker.js": "/Cesar-Martinez/service-worker.js",
-    "static/css/main.d98a3cf8.chunk.css.map": "/Cesar-Martinez/static/css/main.d98a3cf8.chunk.css.map",
-    "static/js/2.2274cd8c.chunk.js.LICENSE.txt": "/Cesar-Martinez/static/js/2.2274cd8c.chunk.js.LICENSE.txt",
+    "static/css/main.5df169a3.chunk.css.map": "/Cesar-Martinez/static/css/main.5df169a3.chunk.css.map",
+    "static/js/2.e731132e.chunk.js.LICENSE.txt": "/Cesar-Martinez/static/js/2.e731132e.chunk.js.LICENSE.txt",
     "static/media/RickLaptop.png": "/Cesar-Martinez/static/media/RickLaptop.6ae0342a.png",
     "static/media/bootstrap.png": "/Cesar-Martinez/static/media/bootstrap.ce2c3668.png",
     "static/media/crypto.png": "/Cesar-Martinez/static/media/crypto.845c5449.png",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.608824cd.js",
-    "static/js/2.2274cd8c.chunk.js",
-    "static/css/main.d98a3cf8.chunk.css",
-    "static/js/main.652c45fe.chunk.js"
+    "static/js/2.e731132e.chunk.js",
+    "static/css/main.5df169a3.chunk.css",
+    "static/js/main.528b9d96.chunk.js"
   ]
 }
