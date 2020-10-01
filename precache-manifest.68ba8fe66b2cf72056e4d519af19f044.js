@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6178a76b5973c465644b7f83e4331f9c",
+    "revision": "9fdeaecda5f9682faf7279c68cfaba29",
     "url": "/Cesar-Martinez/index.html"
   },
   {
-    "revision": "fe371ca39f0e913a098a",
-    "url": "/Cesar-Martinez/static/css/main.c6039783.chunk.css"
+    "revision": "b55fa265326c55522ad3",
+    "url": "/Cesar-Martinez/static/css/main.0bfdf6a1.chunk.css"
   },
   {
     "revision": "1c60034fa23556ff23be",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cesar-Martinez/static/js/2.e731132e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fe371ca39f0e913a098a",
-    "url": "/Cesar-Martinez/static/js/main.3dc65d37.chunk.js"
+    "revision": "b55fa265326c55522ad3",
+    "url": "/Cesar-Martinez/static/js/main.a8df807a.chunk.js"
   },
   {
     "revision": "b7df867cdcf35c4d1c4a",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cesar-Martinez/static/media/RickLaptop.6ae0342a.png"
   },
   {
-    "revision": "ce2c3668da51b0b449357385ea86fac6",
-    "url": "/Cesar-Martinez/static/media/bootstrap.ce2c3668.png"
+    "revision": "c189eb2be78c4aa05ee9bfa4d86649ab",
+    "url": "/Cesar-Martinez/static/media/bootstrap.c189eb2b.png"
   },
   {
     "revision": "845c544934d57d5a8efef7a4434611ed",
@@ -90,5 +90,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6360f8d34779abadd42bbe2ec9a3dac7",
     "url": "/Cesar-Martinez/static/media/swift.6360f8d3.png"
+  },
+  {
+    "revision": "d818b86fb2c158a71860a2626d8bcf0e",
+    "url": "/Cesar-Martinez/static/media/typescript.d818b86f.png"
   }
 ]);

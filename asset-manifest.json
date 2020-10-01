@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Cesar-Martinez/static/css/main.c6039783.chunk.css",
-    "main.js": "/Cesar-Martinez/static/js/main.3dc65d37.chunk.js",
-    "main.js.map": "/Cesar-Martinez/static/js/main.3dc65d37.chunk.js.map",
+    "main.css": "/Cesar-Martinez/static/css/main.0bfdf6a1.chunk.css",
+    "main.js": "/Cesar-Martinez/static/js/main.a8df807a.chunk.js",
+    "main.js.map": "/Cesar-Martinez/static/js/main.a8df807a.chunk.js.map",
     "runtime-main.js": "/Cesar-Martinez/static/js/runtime-main.608824cd.js",
     "runtime-main.js.map": "/Cesar-Martinez/static/js/runtime-main.608824cd.js.map",
     "static/js/2.e731132e.chunk.js": "/Cesar-Martinez/static/js/2.e731132e.chunk.js",
     "static/js/2.e731132e.chunk.js.map": "/Cesar-Martinez/static/js/2.e731132e.chunk.js.map",
     "index.html": "/Cesar-Martinez/index.html",
-    "precache-manifest.c6ef0e5183aeb89ee2d45f6f5635d13c.js": "/Cesar-Martinez/precache-manifest.c6ef0e5183aeb89ee2d45f6f5635d13c.js",
+    "precache-manifest.68ba8fe66b2cf72056e4d519af19f044.js": "/Cesar-Martinez/precache-manifest.68ba8fe66b2cf72056e4d519af19f044.js",
     "service-worker.js": "/Cesar-Martinez/service-worker.js",
-    "static/css/main.c6039783.chunk.css.map": "/Cesar-Martinez/static/css/main.c6039783.chunk.css.map",
+    "static/css/main.0bfdf6a1.chunk.css.map": "/Cesar-Martinez/static/css/main.0bfdf6a1.chunk.css.map",
     "static/js/2.e731132e.chunk.js.LICENSE.txt": "/Cesar-Martinez/static/js/2.e731132e.chunk.js.LICENSE.txt",
     "static/media/RickLaptop.png": "/Cesar-Martinez/static/media/RickLaptop.6ae0342a.png",
-    "static/media/bootstrap.png": "/Cesar-Martinez/static/media/bootstrap.ce2c3668.png",
+    "static/media/bootstrap.png": "/Cesar-Martinez/static/media/bootstrap.c189eb2b.png",
     "static/media/crypto.png": "/Cesar-Martinez/static/media/crypto.845c5449.png",
     "static/media/css.png": "/Cesar-Martinez/static/media/css.7b174c7d.png",
     "static/media/cv.pdf": "/Cesar-Martinez/static/media/cv.c74e0dca.pdf",
@@ -28,12 +28,13 @@
     "static/media/react.png": "/Cesar-Martinez/static/media/react.3ed27365.png",
     "static/media/redux.png": "/Cesar-Martinez/static/media/redux.1535aa30.png",
     "static/media/sass.png": "/Cesar-Martinez/static/media/sass.c5e5fadb.png",
-    "static/media/swift.png": "/Cesar-Martinez/static/media/swift.6360f8d3.png"
+    "static/media/swift.png": "/Cesar-Martinez/static/media/swift.6360f8d3.png",
+    "static/media/typescript.png": "/Cesar-Martinez/static/media/typescript.d818b86f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.608824cd.js",
     "static/js/2.e731132e.chunk.js",
-    "static/css/main.c6039783.chunk.css",
-    "static/js/main.3dc65d37.chunk.js"
+    "static/css/main.0bfdf6a1.chunk.css",
+    "static/js/main.a8df807a.chunk.js"
   ]
 }
