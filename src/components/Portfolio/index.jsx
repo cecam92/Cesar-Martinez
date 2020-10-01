@@ -61,29 +61,29 @@ const Porfolio = (props) => {
                     </p>
                   );
                 })}
-              </div>
-              <div className="section-buttons">
-                <div className="buttons-container">
-                  {project.url && (
+                <div className="section-buttons">
+                  <div className="buttons-container">
+                    {project.url && (
+                      <Button className="btn btn-primary">
+                        <a
+                          href={project.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Demo
+                        </a>
+                      </Button>
+                    )}
                     <Button className="btn btn-primary">
                       <a
-                        href={project.url}
+                        href={project.repository}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Demo
+                        Github
                       </a>
                     </Button>
-                  )}
-                  <Button className="btn btn-primary">
-                    <a
-                      href={project.repository}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Github
-                    </a>
-                  </Button>
+                  </div>
                 </div>
               </div>
               <div className="icon-container">
