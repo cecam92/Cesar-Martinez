@@ -64,7 +64,7 @@ const AboutMe = () => {
                 <br />
               </p>
             );
-          })}{" "}
+          })}
           <div className="section-buttons">
             <Button className="btn btn-primary ">
               <a href={CV} target="_blank" rel="noopener noreferrer">
@@ -74,26 +74,29 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <div className="icon-container">
-          {socials.map((social, index) => {
-            return (
-              <a
-                key={index}
-                href={social.url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i>
-                  <img
-                    className="icon"
-                    src={social.icon}
-                    alt={`${social.name} icon`}
-                  />
-                  <h6 className="">{social.name} </h6>
-                </i>
-              </a>
-            );
-          })}
+        <div className="networks-container">
+          <h3>Reach me out </h3>
+          <div className="icon-container">
+            {socials.map((social, index) => {
+              return (
+                <a
+                  key={index}
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i>
+                    <img
+                      className="icon"
+                      src={social.icon}
+                      alt={`${social.name} icon`}
+                    />
+                    {/* <h6 className="">{social.name} </h6> */}
+                  </i>
+                </a>
+              );
+            })}
+          </div>
         </div>
       </section>
     </Fragment>

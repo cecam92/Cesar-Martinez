@@ -36,10 +36,7 @@ h2 {
   color: inherit;
   text-align: center;
 }
-h3 {
-  font-size: 1.8rem;
-  color: $primary;
-}
+
 h6 {
   margin-top: 5px;
 }
@@ -64,6 +61,10 @@ section {
   align-items: center;
   color: $darkColor;
   background-color: $ligthColor;
+
+  & h2 {
+    font-weight: bold;
+  }
 }
 figure {
   margin: 1rem auto;
@@ -89,6 +90,10 @@ article {
   width: 100%;
   color: inherit;
   background-color: inherit;
+
+  & h6 {
+    color: $caption;
+  }
 }
 article:nth-of-type(even) {
   background-color: $darkColor;
@@ -120,7 +125,6 @@ i {
 }
 
 .text_container {
-  //text-align: justify;
   color: inherit;
   padding: 5%;
   padding-bottom: 0%;
@@ -146,15 +150,33 @@ i {
   align-content: center;
   color: inherit;
 }
+
 .btn.btn-primary {
-  max-width: 90px;
-  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
   font-size: 1.5rem;
-}
-.btn a {
-  color: $ligthColor;
+  border-radius: 16px;
+  & a {
+    color: $ligthColor;
+  }
 }
 
+.networks-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  & h3 {
+    padding-top: 10px;
+    text-align: center;
+    color: $caption;
+  }
+  & .icon-container {
+    margin-top: 10px;
+  }
+}
 .icon {
   width: 40px;
   height: 40px;
@@ -171,11 +193,6 @@ i {
   }
 }
 
-.icon-caption {
-  display: flex;
-  color: inherit;
-  justify-content: center;
-}
 .tech-container {
   display: grid;
   width: 100%;
@@ -203,7 +220,4 @@ i {
 
 @media screen and (min-width: 1000px) {
   @import "./Laptop.scss";
-}
-@media screen and (min-width: 1500px) {
-  @import "./Monitor.scss";
 }

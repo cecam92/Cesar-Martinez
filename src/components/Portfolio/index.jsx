@@ -23,7 +23,7 @@ const Porfolio = (props) => {
   return (
     <Fragment>
       <section className="projects" id="portfolio">
-        <h2 className="section-title light">Portfolio</h2>
+        <h2 className="section-title">Portfolio</h2>
         <div className="text_container ">
           <p>
             {intro}
@@ -91,7 +91,7 @@ const Porfolio = (props) => {
                   return (
                     <i key={index}>
                       <img className="icon" src={tech.icon} alt="html icon" />
-                      <h6 className="icon-caption">{tech.name}</h6>
+                      <h6>{tech.name}</h6>
                     </i>
                   );
                 })}
