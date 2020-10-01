@@ -5,7 +5,6 @@ import Main from "../../components/Main";
 import Footer from "../../components/Footer";
 import { useSpring, animated as a } from "react-spring";
 
-import "./styles.scss";
 const Home = () => {
   const [data, setData] = useState(1);
   const [stick, setStick] = useState(false);

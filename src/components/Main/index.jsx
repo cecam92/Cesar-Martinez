@@ -1,7 +1,6 @@
 import React from "react";
 import AboutMe from "../AboutMe";
 import Portfolio from "../Portfolio";
-import "./styles.scss";
 import JS from "../../assets/js.png";
 import HTML from "../../assets/html.png";
 import Redux from "../../assets/redux.png";
@@ -80,11 +79,11 @@ const Main = () => {
       description: [
         {
           paragraph: `CryptoTracker is an IOS and Android mobile application developed in React Native.
-          This app allows the user to follow the crypto coins' price in the market.`,
+          This app track the price of the crypto coins in the market.`,
         },
         {
-          paragraph: `CryptoTracker shows the behaivor of the coins in the last hour, it's price in USD and thier value with other coins,
-            this data is gathering from open source RESTful API.
+          paragraph: `CryptoTracker shows the behaivor of the coins in the last hour, thier price in USD and thier value with other coins.
+            This data is gathering from an open source RESTful API.
           `,
         },
       ],

@@ -1,6 +1,5 @@
 import React, { Fragment, useState, useEffect } from "react";
 import Button from "react-bootstrap/button";
-import "./styles.scss";
 
 const Porfolio = (props) => {
   const { projects } = props;

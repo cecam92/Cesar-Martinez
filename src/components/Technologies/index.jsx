@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import "./styles.scss";
 
 import JS from "../../assets/js.png";
 import HTML from "../../assets/html.png";

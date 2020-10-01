@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import "./styles.scss";
 import Button from "react-bootstrap/button";
 import linkedin from "../../assets/linkedin.png";
 import CV from "../../assets/cv.pdf";

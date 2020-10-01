@@ -20,6 +20,10 @@ article {
   max-height: 70vh;
   max-width: 100%;
   object-fit: scale-down;
+
+  @media screen and (min-height: 1300px) {
+    max-height: 50vh;
+  }
 }
 
 .icon-container {
