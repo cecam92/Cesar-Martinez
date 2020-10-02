@@ -91,7 +91,6 @@ const AboutMe = () => {
                       src={social.icon}
                       alt={`${social.name} icon`}
                     />
-                    {/* <h6 className="">{social.name} </h6> */}
                   </i>
                 </a>
               );

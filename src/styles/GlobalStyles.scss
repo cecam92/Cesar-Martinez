@@ -146,9 +146,10 @@ i {
   display: flex;
   min-width: 370px;
   max-width: 90%;
+  height: 67px;
   margin: 5% auto;
   justify-content: space-around;
-  align-content: center;
+  align-items: center;
   color: inherit;
 }
 
@@ -161,6 +162,11 @@ i {
   font-size: 1.5rem;
   border-radius: 16px;
   padding: 0px;
+
+  & a:hover {
+    color: $ligthColor;
+    text-decoration: none;
+  }
 }
 
 .networks-container {
@@ -175,7 +181,17 @@ i {
   & .icon-container {
     margin-top: 10px;
   }
+
+  & i {
+    height: 45px;
+    width: 45px;
+    & img:hover {
+      height: 45px;
+      width: 45px;
+    }
+  }
 }
+
 .icon {
   width: 40px;
   height: 40px;
