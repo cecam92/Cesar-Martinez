@@ -114,6 +114,7 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-style: normal;
 }
 .dark {
   background-color: $darkColor;
@@ -151,7 +152,7 @@ i {
   color: inherit;
 }
 
-.btn.btn-primary {
+.btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,9 +160,7 @@ i {
   height: 30px;
   font-size: 1.5rem;
   border-radius: 16px;
-  & a {
-    color: $ligthColor;
-  }
+  padding: 0px;
 }
 
 .networks-container {

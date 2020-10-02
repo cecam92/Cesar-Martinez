@@ -11,12 +11,7 @@ h1 {
 .btn.btn-primary {
   width: 90px;
   height: 30px;
-  font-size: 1.5rem;
   border-radius: 16px;
-
-  & a {
-    color: $ligthColor;
-  }
 }
 .icon-container {
   width: 70%;
