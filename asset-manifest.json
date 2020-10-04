@@ -1,40 +1,32 @@
 {
   "files": {
     "main.css": "/cesar-martinez/static/css/main.c9e167ae.chunk.css",
-    "main.js": "/cesar-martinez/static/js/main.5da7d939.chunk.js",
-    "main.js.map": "/cesar-martinez/static/js/main.5da7d939.chunk.js.map",
+    "main.js": "/cesar-martinez/static/js/main.f5c49590.chunk.js",
+    "main.js.map": "/cesar-martinez/static/js/main.f5c49590.chunk.js.map",
     "runtime-main.js": "/cesar-martinez/static/js/runtime-main.093899db.js",
     "runtime-main.js.map": "/cesar-martinez/static/js/runtime-main.093899db.js.map",
     "static/js/2.e731132e.chunk.js": "/cesar-martinez/static/js/2.e731132e.chunk.js",
     "static/js/2.e731132e.chunk.js.map": "/cesar-martinez/static/js/2.e731132e.chunk.js.map",
     "index.html": "/cesar-martinez/index.html",
-    "precache-manifest.a4663007f71e12f85cb499e8e09f27d6.js": "/cesar-martinez/precache-manifest.a4663007f71e12f85cb499e8e09f27d6.js",
+    "precache-manifest.706c8d70c8df446adbd730d8fdd9af9f.js": "/cesar-martinez/precache-manifest.706c8d70c8df446adbd730d8fdd9af9f.js",
     "service-worker.js": "/cesar-martinez/service-worker.js",
     "static/css/main.c9e167ae.chunk.css.map": "/cesar-martinez/static/css/main.c9e167ae.chunk.css.map",
     "static/js/2.e731132e.chunk.js.LICENSE.txt": "/cesar-martinez/static/js/2.e731132e.chunk.js.LICENSE.txt",
-    "static/media/RickLaptop.png": "/cesar-martinez/static/media/RickLaptop.6ae0342a.png",
-    "static/media/bootstrap.png": "/cesar-martinez/static/media/bootstrap.c189eb2b.png",
-    "static/media/crypto.png": "/cesar-martinez/static/media/crypto.845c5449.png",
-    "static/media/css.png": "/cesar-martinez/static/media/css.7b174c7d.png",
+    "static/media/RickLaptop.png": "/cesar-martinez/static/media/RickLaptop.8e6a127f.png",
+    "static/media/crypto.png": "/cesar-martinez/static/media/crypto.da00c083.png",
     "static/media/cv.pdf": "/cesar-martinez/static/media/cv.c74e0dca.pdf",
-    "static/media/galeria.png": "/cesar-martinez/static/media/galeria.d070ef38.png",
-    "static/media/galeriaLg.png": "/cesar-martinez/static/media/galeriaLg.ce630b66.png",
-    "static/media/graphql.png": "/cesar-martinez/static/media/graphql.a7f48025.png",
-    "static/media/html.png": "/cesar-martinez/static/media/html.70d6173e.png",
-    "static/media/instagram.png": "/cesar-martinez/static/media/instagram.5cdaebf1.png",
-    "static/media/js.png": "/cesar-martinez/static/media/js.a778d931.png",
-    "static/media/me.png": "/cesar-martinez/static/media/me.05f09f13.png",
-    "static/media/pickle.png": "/cesar-martinez/static/media/pickle.61afcd3f.png",
-    "static/media/react.png": "/cesar-martinez/static/media/react.3ed27365.png",
-    "static/media/redux.png": "/cesar-martinez/static/media/redux.1535aa30.png",
-    "static/media/sass.png": "/cesar-martinez/static/media/sass.c5e5fadb.png",
-    "static/media/swift.png": "/cesar-martinez/static/media/swift.6360f8d3.png",
-    "static/media/typescript.png": "/cesar-martinez/static/media/typescript.d818b86f.png"
+    "static/media/galeria.png": "/cesar-martinez/static/media/galeria.bb641517.png",
+    "static/media/galeriaLg.png": "/cesar-martinez/static/media/galeriaLg.af0f0792.png",
+    "static/media/graphql.png": "/cesar-martinez/static/media/graphql.687624a6.png",
+    "static/media/js.png": "/cesar-martinez/static/media/js.452587d6.png",
+    "static/media/me.png": "/cesar-martinez/static/media/me.3422ab6f.png",
+    "static/media/pickle.png": "/cesar-martinez/static/media/pickle.1286651c.png",
+    "static/media/swift.png": "/cesar-martinez/static/media/swift.09b69d35.png"
   },
   "entrypoints": [
     "static/js/runtime-main.093899db.js",
     "static/js/2.e731132e.chunk.js",
     "static/css/main.c9e167ae.chunk.css",
-    "static/js/main.5da7d939.chunk.js"
+    "static/js/main.f5c49590.chunk.js"
   ]
 }
