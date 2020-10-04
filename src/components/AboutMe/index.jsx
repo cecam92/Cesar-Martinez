@@ -75,7 +75,7 @@ const AboutMe = () => {
         </div>
 
         <div className="networks-container">
-          <h3>Reach me out </h3>
+          {/* <h3>Reach me at </h3> */}
           <div className="icon-container">
             {socials.map((social, index) => {
               return (
