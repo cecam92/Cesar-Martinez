@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cecam92.github.io/precache-manifest.27a018816b18ee97b650ea05e1adeb0e.js"
+  "/cecam92.github.io/precache-manifest.ea942c5a0a0fe4657bf503bb632da78b.js"
 );
 
 self.addEventListener('message', (event) => {
