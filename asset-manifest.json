@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/cecam92.github.io/static/css/main.dd39aa86.chunk.css",
-    "main.js": "/cecam92.github.io/static/js/main.d7a8f8a7.chunk.js",
-    "main.js.map": "/cecam92.github.io/static/js/main.d7a8f8a7.chunk.js.map",
+    "main.js": "/cecam92.github.io/static/js/main.05150963.chunk.js",
+    "main.js.map": "/cecam92.github.io/static/js/main.05150963.chunk.js.map",
     "runtime-main.js": "/cecam92.github.io/static/js/runtime-main.0ab75d28.js",
     "runtime-main.js.map": "/cecam92.github.io/static/js/runtime-main.0ab75d28.js.map",
     "static/js/2.e731132e.chunk.js": "/cecam92.github.io/static/js/2.e731132e.chunk.js",
     "static/js/2.e731132e.chunk.js.map": "/cecam92.github.io/static/js/2.e731132e.chunk.js.map",
     "index.html": "/cecam92.github.io/index.html",
-    "precache-manifest.7128eaa7ccea5c33e4def0ba11c25c36.js": "/cecam92.github.io/precache-manifest.7128eaa7ccea5c33e4def0ba11c25c36.js",
+    "precache-manifest.7ca65b4f668b5427150ed2f9801e525e.js": "/cecam92.github.io/precache-manifest.7ca65b4f668b5427150ed2f9801e525e.js",
     "service-worker.js": "/cecam92.github.io/service-worker.js",
     "static/css/main.dd39aa86.chunk.css.map": "/cecam92.github.io/static/css/main.dd39aa86.chunk.css.map",
     "static/js/2.e731132e.chunk.js.LICENSE.txt": "/cecam92.github.io/static/js/2.e731132e.chunk.js.LICENSE.txt",
-    "static/media/RickLaptop.png": "/cecam92.github.io/static/media/RickLaptop.8e6a127f.png",
+    "static/media/RickLaptop.png": "/cecam92.github.io/static/media/RickLaptop.f53f4f7e.png",
     "static/media/crypto.png": "/cecam92.github.io/static/media/crypto.da00c083.png",
     "static/media/cv.pdf": "/cecam92.github.io/static/media/cv.4239029c.pdf",
     "static/media/galeria.png": "/cecam92.github.io/static/media/galeria.bb641517.png",
@@ -20,13 +20,13 @@
     "static/media/graphql.png": "/cecam92.github.io/static/media/graphql.687624a6.png",
     "static/media/js.png": "/cecam92.github.io/static/media/js.452587d6.png",
     "static/media/me.png": "/cecam92.github.io/static/media/me.3422ab6f.png",
-    "static/media/pickle.png": "/cecam92.github.io/static/media/pickle.1286651c.png",
+    "static/media/pickle.png": "/cecam92.github.io/static/media/pickle.e96b7568.png",
     "static/media/swift.png": "/cecam92.github.io/static/media/swift.09b69d35.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0ab75d28.js",
     "static/js/2.e731132e.chunk.js",
     "static/css/main.dd39aa86.chunk.css",
-    "static/js/main.d7a8f8a7.chunk.js"
+    "static/js/main.05150963.chunk.js"
   ]
 }
