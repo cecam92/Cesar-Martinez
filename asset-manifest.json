@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/cecam92.github.io/static/css/main.dd39aa86.chunk.css",
-    "main.js": "/cecam92.github.io/static/js/main.05150963.chunk.js",
-    "main.js.map": "/cecam92.github.io/static/js/main.05150963.chunk.js.map",
+    "main.js": "/cecam92.github.io/static/js/main.7b4e3037.chunk.js",
+    "main.js.map": "/cecam92.github.io/static/js/main.7b4e3037.chunk.js.map",
     "runtime-main.js": "/cecam92.github.io/static/js/runtime-main.0ab75d28.js",
     "runtime-main.js.map": "/cecam92.github.io/static/js/runtime-main.0ab75d28.js.map",
-    "static/js/2.e731132e.chunk.js": "/cecam92.github.io/static/js/2.e731132e.chunk.js",
-    "static/js/2.e731132e.chunk.js.map": "/cecam92.github.io/static/js/2.e731132e.chunk.js.map",
+    "static/js/2.8572e6b6.chunk.js": "/cecam92.github.io/static/js/2.8572e6b6.chunk.js",
+    "static/js/2.8572e6b6.chunk.js.map": "/cecam92.github.io/static/js/2.8572e6b6.chunk.js.map",
     "index.html": "/cecam92.github.io/index.html",
-    "precache-manifest.7ca65b4f668b5427150ed2f9801e525e.js": "/cecam92.github.io/precache-manifest.7ca65b4f668b5427150ed2f9801e525e.js",
+    "precache-manifest.993af7d7461ac48d580dd2f118870e7f.js": "/cecam92.github.io/precache-manifest.993af7d7461ac48d580dd2f118870e7f.js",
     "service-worker.js": "/cecam92.github.io/service-worker.js",
     "static/css/main.dd39aa86.chunk.css.map": "/cecam92.github.io/static/css/main.dd39aa86.chunk.css.map",
-    "static/js/2.e731132e.chunk.js.LICENSE.txt": "/cecam92.github.io/static/js/2.e731132e.chunk.js.LICENSE.txt",
+    "static/js/2.8572e6b6.chunk.js.LICENSE.txt": "/cecam92.github.io/static/js/2.8572e6b6.chunk.js.LICENSE.txt",
     "static/media/RickLaptop.png": "/cecam92.github.io/static/media/RickLaptop.f53f4f7e.png",
     "static/media/crypto.png": "/cecam92.github.io/static/media/crypto.da00c083.png",
     "static/media/cv.pdf": "/cecam92.github.io/static/media/cv.4239029c.pdf",
@@ -20,13 +20,16 @@
     "static/media/graphql.png": "/cecam92.github.io/static/media/graphql.687624a6.png",
     "static/media/js.png": "/cecam92.github.io/static/media/js.452587d6.png",
     "static/media/me.png": "/cecam92.github.io/static/media/me.3422ab6f.png",
+    "static/media/mongo.png": "/cecam92.github.io/static/media/mongo.67081e4d.png",
+    "static/media/nodejs.svg": "/cecam92.github.io/static/media/nodejs.b337a2fb.svg",
     "static/media/pickle.png": "/cecam92.github.io/static/media/pickle.e96b7568.png",
+    "static/media/styledComponents.png": "/cecam92.github.io/static/media/styledComponents.687f11cb.png",
     "static/media/swift.png": "/cecam92.github.io/static/media/swift.09b69d35.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0ab75d28.js",
-    "static/js/2.e731132e.chunk.js",
+    "static/js/2.8572e6b6.chunk.js",
     "static/css/main.dd39aa86.chunk.css",
-    "static/js/main.05150963.chunk.js"
+    "static/js/main.7b4e3037.chunk.js"
   ]
 }
