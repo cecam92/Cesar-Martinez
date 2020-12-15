@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60f85880643bf0793caa651bb22b6a29",
+    "revision": "5d05ae8093ad487fca1404b6c1992667",
     "url": "/cecam92.github.io/index.html"
   },
   {
-    "revision": "52e03116f49cfa3e2ea9",
+    "revision": "778f5f6342c8cd7c0ff8",
     "url": "/cecam92.github.io/static/css/main.dd39aa86.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cecam92.github.io/static/js/2.8572e6b6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "52e03116f49cfa3e2ea9",
-    "url": "/cecam92.github.io/static/js/main.7b4e3037.chunk.js"
+    "revision": "778f5f6342c8cd7c0ff8",
+    "url": "/cecam92.github.io/static/js/main.c52d421c.chunk.js"
   },
   {
     "revision": "3c86db7b4bef9600a50e",
     "url": "/cecam92.github.io/static/js/runtime-main.0ab75d28.js"
   },
   {
-    "revision": "f53f4f7efbeae5f45c76c85896cd0d56",
-    "url": "/cecam92.github.io/static/media/RickLaptop.f53f4f7e.png"
+    "revision": "8768f01b27a4c39f5f8837bccc683ecc",
+    "url": "/cecam92.github.io/static/media/RickLaptop.8768f01b.png"
   },
   {
     "revision": "da00c0833396eda8c79dfd38a8b76940",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cecam92.github.io/static/media/nodejs.b337a2fb.svg"
   },
   {
-    "revision": "e96b7568150ee4d0dc4428ac44239ef4",
-    "url": "/cecam92.github.io/static/media/pickle.e96b7568.png"
+    "revision": "4f557e16a1f8f9382602bb1b8def44cc",
+    "url": "/cecam92.github.io/static/media/pickle.4f557e16.png"
   },
   {
     "revision": "687f11cb75d0c857ad0e2ecff2df9a4f",
