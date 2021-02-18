@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/cecam92.github.io/static/css/main.dd39aa86.chunk.css",
-    "main.js": "/cecam92.github.io/static/js/main.c3de2c77.chunk.js",
-    "main.js.map": "/cecam92.github.io/static/js/main.c3de2c77.chunk.js.map",
+    "main.css": "/cecam92.github.io/static/css/main.1b61fd87.chunk.css",
+    "main.js": "/cecam92.github.io/static/js/main.82c94307.chunk.js",
+    "main.js.map": "/cecam92.github.io/static/js/main.82c94307.chunk.js.map",
     "runtime-main.js": "/cecam92.github.io/static/js/runtime-main.0ab75d28.js",
     "runtime-main.js.map": "/cecam92.github.io/static/js/runtime-main.0ab75d28.js.map",
-    "static/js/2.1013cfef.chunk.js": "/cecam92.github.io/static/js/2.1013cfef.chunk.js",
-    "static/js/2.1013cfef.chunk.js.map": "/cecam92.github.io/static/js/2.1013cfef.chunk.js.map",
+    "static/js/2.18017314.chunk.js": "/cecam92.github.io/static/js/2.18017314.chunk.js",
+    "static/js/2.18017314.chunk.js.map": "/cecam92.github.io/static/js/2.18017314.chunk.js.map",
     "index.html": "/cecam92.github.io/index.html",
-    "precache-manifest.fa3ddc146d3bc5ab991c623d35a9100b.js": "/cecam92.github.io/precache-manifest.fa3ddc146d3bc5ab991c623d35a9100b.js",
+    "precache-manifest.34c5a216a41eb45c837775ef3b8f3046.js": "/cecam92.github.io/precache-manifest.34c5a216a41eb45c837775ef3b8f3046.js",
     "service-worker.js": "/cecam92.github.io/service-worker.js",
-    "static/css/main.dd39aa86.chunk.css.map": "/cecam92.github.io/static/css/main.dd39aa86.chunk.css.map",
-    "static/js/2.1013cfef.chunk.js.LICENSE.txt": "/cecam92.github.io/static/js/2.1013cfef.chunk.js.LICENSE.txt",
+    "static/css/main.1b61fd87.chunk.css.map": "/cecam92.github.io/static/css/main.1b61fd87.chunk.css.map",
+    "static/js/2.18017314.chunk.js.LICENSE.txt": "/cecam92.github.io/static/js/2.18017314.chunk.js.LICENSE.txt",
     "static/media/RickLaptop.png": "/cecam92.github.io/static/media/RickLaptop.8768f01b.png",
     "static/media/crypto.png": "/cecam92.github.io/static/media/crypto.da00c083.png",
     "static/media/cv.pdf": "/cecam92.github.io/static/media/cv.87f81329.pdf",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0ab75d28.js",
-    "static/js/2.1013cfef.chunk.js",
-    "static/css/main.dd39aa86.chunk.css",
-    "static/js/main.c3de2c77.chunk.js"
+    "static/js/2.18017314.chunk.js",
+    "static/css/main.1b61fd87.chunk.css",
+    "static/js/main.82c94307.chunk.js"
   ]
 }
