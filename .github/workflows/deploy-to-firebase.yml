@@ -1,5 +1,6 @@
 name: Build and Deploy
-  push:
+ on:
+   push:
     branches:
       - master
 
