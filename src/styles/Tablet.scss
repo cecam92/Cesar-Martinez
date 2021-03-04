@@ -1,4 +1,4 @@
-@import "./Variables.scss";
+@import './Variables.scss';
 html {
   font-size: 80.5%;
 }
@@ -7,6 +7,9 @@ h1 {
 }
 .about .btn {
   margin-left: 5%;
+}
+.about img {
+  height: 300px;
 }
 .btn.btn-primary {
   width: 90px;
